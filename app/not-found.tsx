@@ -1,28 +1,54 @@
-import Link from "next/link"
-import { FileQuestion } from "lucide-react"
+"use client"
 
+import Image from "next/image"
+import Link from "next/link"
+import { useRouter } from "next/navigation"
+
+import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect"
 import { Button } from "@/components/ui/button"
 
 export default function NotFound() {
+  const router = useRouter()
+
   return (
-    <div className="flex min-h-[60vh] flex-col items-center justify-center p-6 text-center">
-      <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-muted/50">
-        <FileQuestion className="h-10 w-10 text-muted-foreground" />
-      </div>
+    <div className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden p-6 text-center">
+      {/* Increased rows and cols to cover full heights and wide screens securely */}
+      <BackgroundRippleEffect rows={20} cols={40} />
 
-      <h2 className="mb-2 text-3xl font-bold tracking-tight">
-        404 - Không Tìm Thấy Trang
-      </h2>
-      <p className="mx-auto mb-8 max-w-sm text-muted-foreground">
-        Trang bạn đang cố truy cập không tồn tại, đã bị xóa hoặc URL có thể bị
-        sai.
-      </p>
+      {/* Adding pointer-events-none so clicks on empty space pass through to the ripple background */}
+      <div className="pointer-events-none relative z-10 flex flex-col items-center justify-center">
+        <div className="mb-8 flex justify-center">
+          <Image
+            src="/not-found.svg"
+            alt="404 Not Found"
+            width={230}
+            height={150}
+            priority
+          />
+        </div>
 
-      <Link href="/">
-        <Button size="lg" className="gap-2">
-          Trở về Trang Chủ
+        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          This is not the page you are looking for
+        </h2>
+        <p className="pointer-events-auto mx-auto mb-8 max-w-md text-sm text-muted-foreground md:text-base">
+          <button
+            type="button"
+            onClick={() => router.back()}
+            className="font-medium text-primary hover:underline"
+          >
+            Go back
+          </button>{" "}
+          or head to the homepage to find a new path.
+        </p>
+
+        <Button
+          asChild
+          size="default"
+          className="pointer-events-auto min-w-[150px]"
+        >
+          <Link href="/">Go to homepage</Link>
         </Button>
-      </Link>
+      </div>
     </div>
   )
 }

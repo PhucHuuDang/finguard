@@ -6,6 +6,7 @@ import { Metadata } from "next"
 import { Toaster } from "sonner"
 
 import { cn } from "@/lib/utils"
+import { Footer } from "@/components/common/footer"
 import { ScrollToTop } from "@/components/common/scroll-to-top"
 import { ThemeProvider } from "@/components/theme-provider"
 import { META } from "@/constant/meta"
@@ -43,6 +44,8 @@ export default function RootLayout({
         <ThemeProvider>
           {children}
           <ScrollToTop threshold={400} />
+
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

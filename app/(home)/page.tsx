@@ -8,10 +8,8 @@ export default function Page() {
     <main>
       <Navbar />
       <HeroSection />
+      <ReviewBadge className="py-2 md:py-4" />
       <Market />
-      <div className="flex w-full items-center justify-center py-4 md:py-8">
-        <ReviewBadge className="py-2 md:py-4" />
-      </div>
     </main>
   )
 }

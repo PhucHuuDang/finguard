@@ -9,6 +9,11 @@ export const META: Metadata = {
   icons: {
     icon: [
       {
+        url: "/test.png",
+        sizes: "128x128",
+        type: "image/png",
+      },
+      {
         url: "/images/metadata/favicon-32x32.png",
         sizes: "32x32",
         type: "image/png",
