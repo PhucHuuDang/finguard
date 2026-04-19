@@ -20,7 +20,7 @@ export function CryptoCard({
   isPositive,
 }: CryptoCardProps) {
   return (
-    <div className="flex flex-col gap-3 rounded-xl bg-neutral-900/60 p-3.5">
+    <div className="flex flex-col gap-3 rounded-xl border bg-neutral-900/30 p-3.5">
       <div className="flex items-center gap-2.5">
         <div className="flex size-9 items-center justify-center rounded-full bg-neutral-800 text-lg">
           {icon}

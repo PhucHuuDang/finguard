@@ -16,9 +16,9 @@ const navLinks = [
 export function Navbar() {
   return (
     <nav className="fixed top-6 right-0 left-0 z-50 mx-auto flex w-full max-w-2xl items-center justify-center px-4">
-      <div className="glass-nav flex w-full items-center justify-between gap-2 rounded-full px-6 py-3">
+      <div className="flex w-full items-center justify-between gap-2 rounded-xl bg-neutral-900/30 px-6 py-1 backdrop-blur-xl">
         {/* Logo */}
-        <Logo width={32} height={32} className="shrink-0" />
+        <Logo width={40} height={40} className="shrink-0 p-1 pt-1.5" />
 
         {/* Desktop Links */}
         <div className="hidden items-center gap-1 md:flex">
@@ -26,10 +26,10 @@ export function Navbar() {
             <Link
               key={link.label}
               href={link.href}
-              className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
+              className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors ${
                 link.active
                   ? "text-orange-400"
-                  : "text-neutral-400 hover:text-neutral-200"
+                  : "text-neutral-200 hover:text-orange-400"
               }`}
             >
               {link.label}
@@ -49,7 +49,7 @@ export function Navbar() {
           <Button
             variant="outline"
             size="sm"
-            className="rounded-full border-neutral-700 bg-white px-5 text-sm font-medium text-black hover:bg-neutral-200"
+            className="rounded-full border-neutral-700 bg-white px-5 text-xs font-medium hover:bg-neutral-200"
           >
             Login
           </Button>
