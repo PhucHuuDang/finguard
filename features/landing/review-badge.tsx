@@ -6,7 +6,7 @@ import Image from "next/image"
 
 import { cn } from "@/lib/utils"
 
-import { Reveal } from "../animations/reveal"
+import { Reveal } from "../../components/animations/reveal"
 
 const BorderBeam = dynamic(
   () => import("border-beam").then((mod) => mod.BorderBeam),

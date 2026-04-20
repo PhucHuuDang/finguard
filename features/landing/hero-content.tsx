@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { HOME_LABEL } from "@/constant/label"
 
-import { NoiseBackground } from "../ui/noise-background"
+import { NoiseBackground } from "../../components/ui/noise-background"
 
 export function HeroContent() {
   return (

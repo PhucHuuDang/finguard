@@ -1,8 +1,8 @@
-import { HeroBackground } from "@/components/landing/hero-background"
-import { HeroContent } from "@/components/landing/hero-content"
-import { TradingCard } from "@/components/landing/trading-card"
+import { HeroBackground } from "@/features/landing/hero-background"
+import { HeroContent } from "@/features/landing/hero-content"
+import { TradingCard } from "@/features/landing/trading-card"
 
-import { Reveal } from "../animations/reveal"
+import { Reveal } from "../../components/animations/reveal"
 
 export function HeroSection() {
   return (

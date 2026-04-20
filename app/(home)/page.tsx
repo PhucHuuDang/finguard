@@ -1,7 +1,8 @@
-import { HeroSection } from "@/components/landing/hero-section"
-import { Market } from "@/components/landing/market"
-import { Navbar } from "@/components/landing/navbar"
-import { ReviewBadge } from "@/components/landing/review-badge"
+import { Navbar } from "@/components/common/navbar"
+import { HeroSection } from "@/features/landing/hero-section"
+import { Market } from "@/features/landing/market"
+import { OurFeatures } from "@/features/landing/our-features"
+import { ReviewBadge } from "@/features/landing/review-badge"
 
 export default function Page() {
   return (
@@ -10,6 +11,7 @@ export default function Page() {
       <HeroSection />
       <ReviewBadge className="py-2 md:py-4" />
       <Market />
+      <OurFeatures />
     </main>
   )
 }

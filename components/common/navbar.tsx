@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Pages", href: "#", hasDropdown: true },
   { label: "About", href: "#" },
   { label: "Features", href: "#" },
+  { label: "Workspace", href: "#" },
   { label: "Pricing", href: "#" },
 ]
 

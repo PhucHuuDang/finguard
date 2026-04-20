@@ -1,9 +1,9 @@
 import { ArrowLeftRight, ChevronRight, Star, Users } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { CryptoCard } from "@/components/landing/crypto-card"
+import { CryptoCard } from "@/features/landing/crypto-card"
 
-import Logo from "../common/logo"
+import Logo from "../../components/common/logo"
 
 const cryptoData = [
   {
@@ -94,13 +94,13 @@ export function TradingCard() {
           </p>
           <div className="mt-1.5 flex items-center justify-between gap-3 text-xs">
             <span className="flex items-center gap-1 text-neutral-500">
-              <span className="inline-block size-2 rounded-full bg-blue-500" />
+              <span className="inline-block size-2 rounded-full bg-sky-500" />
               0.2498488
             </span>
             <div className="flex items-center gap-2">
               <span className="text-neutral-600">24H</span>
               <span className="font-medium text-emerald-400">+5.74</span>
-              <ChevronRight className="size-3 text-blue-400" />
+              <ChevronRight className="size-3 text-sky-400" />
             </div>
           </div>
         </div>
