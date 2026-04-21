@@ -62,8 +62,14 @@ const FEATURES = [
     title: "Advanced Charting Tools",
     description:
       "At Finguard, we ensure fast, reliable payouts with robust model and verified proof on blockchain and social media.",
-    image: "/features/body.avif",
+    // image: "/features/body.avif",
+    image: "/features/features-04-image.avif",
+    classNameContainer: "overflow-visible",
+
     imageAlt: "Advanced charting tools with candlestick patterns",
+
+    secondSrc: "/features/body.avif",
+    classNameSecondSrc: "top-0 z-10",
     imageWidth: 600,
     imageHeight: 400,
     colors: [
@@ -134,19 +140,25 @@ function FeatureCard({
             {secondSrc && (
               <div
                 className={cn(
-                  "absolute top-2 right-6 z-20 md:right-8",
+                  "absolute right-4 z-20 md:right-6",
                   classNameSecondSrc
                 )}
               >
-                {/* <div className="rounded-xl border border-neutral-700/50 bg-neutral-900/80 shadow-lg backdrop-blur-sm"> */}
-                <Image
-                  src={secondSrc}
-                  alt="Feature secondSrc"
-                  width={200}
-                  height={200}
-                  // className="size-full"
-                />
-                {/* </div> */}
+                <div
+                  className={cn(
+                    "overflow-hidden rounded-xl border border-neutral-700/40 shadow-2xl ring-1 shadow-black/60 ring-white/5 backdrop-blur-sm",
+                    classNameContainer
+                  )}
+                >
+                  <Image
+                    src={secondSrc}
+                    alt="Feature overlay"
+                    width={240}
+                    height={280}
+                    className="h-auto w-[180px] object-cover md:w-[240px]"
+                    quality={90}
+                  />
+                </div>
               </div>
             )}
 
@@ -281,6 +293,8 @@ export const OurFeatures = () => {
               imageAlt={FEATURES[3].imageAlt}
               imageWidth={FEATURES[3].imageWidth}
               imageHeight={FEATURES[3].imageHeight}
+              secondSrc={FEATURES[3].secondSrc}
+              classNameSecondSrc={FEATURES[3].classNameSecondSrc}
               colors={FEATURES[3].colors}
               large
               delay={0.6}
