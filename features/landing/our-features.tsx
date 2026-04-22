@@ -121,11 +121,11 @@ function FeatureCard({
         {/* Content */}
         <div className="relative z-10 flex h-full flex-col">
           {/* Text Content */}
-          <div className="space-y-3 px-6 pt-6 pb-4 md:px-8 md:pt-8">
-            <h3 className="font-heading text-lg font-semibold tracking-tight text-white md:text-xl">
+          <div className="space-y-2 px-5 pt-5 pb-3 md:space-y-3 md:px-6 md:pt-6 md:pb-4">
+            <h3 className="font-heading text-base font-semibold tracking-tight text-white md:text-lg">
               {title}
             </h3>
-            <p className="max-w-sm text-sm leading-relaxed text-neutral-400">
+            <p className="max-w-sm text-xs leading-relaxed text-neutral-400 md:text-sm">
               {description}
             </p>
           </div>
@@ -133,29 +133,30 @@ function FeatureCard({
           {/* Image Area */}
           <div
             className={cn(
-              "relative mt-auto flex-1 overflow-hidden px-4 pb-0 md:px-6",
+              "relative mt-auto flex-1 overflow-hidden px-3 pb-0 md:px-5",
               classNameContainer
             )}
           >
             {secondSrc && (
               <div
                 className={cn(
-                  "absolute right-4 z-20 md:right-6",
+                  "absolute right-3 z-20 md:right-5",
                   classNameSecondSrc
                 )}
               >
                 <div
                   className={cn(
-                    "overflow-hidden rounded-xl border border-neutral-700/40 shadow-2xl ring-1 shadow-black/60 ring-white/5 backdrop-blur-sm",
+                    "overflow-hidden rounded-lg border border-neutral-700/40 shadow-2xl ring-1 shadow-black/60 ring-white/5 backdrop-blur-sm md:rounded-xl",
                     classNameContainer
                   )}
                 >
                   <Image
                     src={secondSrc}
                     alt="Feature overlay"
-                    width={240}
-                    height={280}
-                    className="h-auto w-[180px] object-cover md:w-[240px]"
+                    width={200}
+                    height={230}
+                    className="h-auto w-[120px] object-cover sm:w-[150px] md:w-[180px] lg:w-[200px]"
+                    sizes="(max-width: 640px) 120px, (max-width: 768px) 150px, (max-width: 1024px) 180px, 200px"
                     quality={90}
                   />
                 </div>
@@ -165,12 +166,12 @@ function FeatureCard({
             <div
               className={`relative overflow-hidden rounded-t-xl border border-b-0 border-neutral-800/40 ${
                 large
-                  ? "min-h-[220px] md:min-h-[280px]"
-                  : "min-h-[180px] md:min-h-[240px]"
+                  ? "min-h-[160px] sm:min-h-[180px] md:min-h-[220px]"
+                  : "min-h-[140px] sm:min-h-[160px] md:min-h-[200px]"
               }`}
             >
               {/* Subtle top glow on the image */}
-              <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-16 bg-linear-to-b from-neutral-950/40 to-transparent" />
+              <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-12 bg-linear-to-b from-neutral-950/40 to-transparent" />
 
               <Image
                 src={image}
@@ -178,6 +179,7 @@ function FeatureCard({
                 width={imageWidth}
                 height={imageHeight}
                 className="h-full w-full object-cover object-top transition-transform duration-500"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                 quality={90}
               />
             </div>
@@ -200,7 +202,7 @@ function FeatureCard({
 
 export const OurFeatures = () => {
   return (
-    <section className="relative overflow-hidden bg-black py-20 md:py-32">
+    <section className="relative overflow-hidden bg-black py-14 md:py-20 lg:py-24">
       {/* Background Image */}
       <div className="pointer-events-none absolute inset-0 z-0">
         <Image
@@ -231,7 +233,7 @@ export const OurFeatures = () => {
 
         {/* Heading */}
         <Reveal delay={0.2} direction="up">
-          <h2 className="mx-auto mt-8 max-w-3xl text-center font-heading text-2xl leading-[1.15] font-bold tracking-tight text-white md:mt-10 md:text-4xl lg:text-[2.75rem]">
+          <h2 className="mx-auto mt-6 max-w-3xl text-center font-heading text-xl leading-[1.15] font-bold tracking-tight text-white sm:text-2xl md:mt-8 md:text-3xl lg:text-[2.5rem]">
             Our Powerful{" "}
             <span className="text-neutral-300 italic">Dashboard</span> Enable
             <br className="hidden sm:block" /> Over{" "}
@@ -241,7 +243,7 @@ export const OurFeatures = () => {
         </Reveal>
 
         {/* Bento Grid */}
-        <div className="mt-12 grid grid-cols-1 gap-5 md:mt-16 md:grid-cols-12 md:gap-6">
+        <div className="mt-8 grid grid-cols-1 gap-4 md:mt-12 md:grid-cols-12 md:gap-5">
           {/* Row 1: Large left + Small right */}
           <div className="md:col-span-7">
             <FeatureCard
@@ -265,7 +267,7 @@ export const OurFeatures = () => {
               imageWidth={FEATURES[1].imageWidth}
               imageHeight={FEATURES[1].imageHeight}
               secondSrc={FEATURES[1].icon}
-              classNameSecondSrc="-top-6  right-[1000px]"
+              classNameSecondSrc="top-2 md:top-4"
               classNameContainer="overflow-visible"
               colors={FEATURES[1].colors}
               delay={0.4}
@@ -294,7 +296,8 @@ export const OurFeatures = () => {
               imageWidth={FEATURES[3].imageWidth}
               imageHeight={FEATURES[3].imageHeight}
               secondSrc={FEATURES[3].secondSrc}
-              classNameSecondSrc={FEATURES[3].classNameSecondSrc}
+              classNameSecondSrc="top-2 md:top-4"
+              classNameContainer="overflow-visible"
               colors={FEATURES[3].colors}
               large
               delay={0.6}
