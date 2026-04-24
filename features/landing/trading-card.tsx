@@ -43,7 +43,7 @@ const cryptoData = [
 export function TradingCard() {
   return (
     // animate-float
-    <div className="relative w-full max-w-[420px] overflow-hidden rounded-2xl bg-zinc-700/40 p-4">
+    <div className="relative w-full max-w-[500px] overflow-hidden rounded-3xl bg-zinc-700/40 p-5">
       {/* Card content (above chart) */}
       <div className="relative z-10">
         {/* Header */}
@@ -52,7 +52,7 @@ export function TradingCard() {
             🐰
           </div> */}
           <Logo
-            className="rounded-md bg-neutral-400/15 p-1.5"
+            className="rounded-xl bg-neutral-400/15 p-1.5"
             height={40}
             width={40}
           />

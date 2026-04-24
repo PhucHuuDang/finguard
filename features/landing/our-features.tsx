@@ -1,17 +1,12 @@
 "use client"
 
-import dynamic from "next/dynamic"
 import Image from "next/image"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { CardSpotlight } from "@/components/ui/card-spotlight"
 import { Reveal } from "@/components/animations/reveal"
-
-const BorderBeam = dynamic(
-  () => import("border-beam").then((mod) => mod.BorderBeam),
-  { ssr: false }
-)
+import { BorderBeam } from "@/components/common/border-beam"
 
 // --- Constants ---
 

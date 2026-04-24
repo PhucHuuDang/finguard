@@ -138,7 +138,7 @@ function BrandSection() {
     >
       <div className="flex items-center gap-4">
         <Logo width={36} height={36} />
-        <span className="font-heading text-xl font-semibold tracking-tight sm:text-2xl">
+        <span className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
           Conquering Your Trading Goals
         </span>
       </div>

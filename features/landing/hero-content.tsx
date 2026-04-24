@@ -12,8 +12,8 @@ export function HeroContent() {
       {/* Badge */}
       <div className="flex">
         <Badge
-          variant="outline"
-          className="flex items-center gap-2 rounded-full border-neutral-700/60 bg-neutral-900/60 px-4 py-4 text-sm backdrop-blur-sm"
+          variant="default"
+          className="flex items-center gap-2 rounded-full border-neutral-700/60 bg-neutral-900/60 px-4 py-6 text-sm backdrop-blur-sm"
         >
           <span className="text-neutral-400">{HOME_LABEL.BADGE}</span>
           <span className="font-medium text-neutral-200">
@@ -26,7 +26,7 @@ export function HeroContent() {
       </div>
 
       {/* Heading */}
-      <h1 className="max-w-lg font-heading text-2xl leading-[1.08] font-bold tracking-tight text-white md:text-3xl lg:text-5xl">
+      <h1 className="max-w-lg font-heading text-3xl leading-[1.15] font-bold tracking-tight text-white md:text-4xl lg:text-6xl">
         {HOME_LABEL.HERO_TITLE}
       </h1>
 

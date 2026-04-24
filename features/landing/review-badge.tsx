@@ -1,17 +1,11 @@
 "use client"
 
 import * as React from "react"
-import dynamic from "next/dynamic"
 import Image from "next/image"
 
 import { cn } from "@/lib/utils"
-
-import { Reveal } from "../../components/animations/reveal"
-
-const BorderBeam = dynamic(
-  () => import("border-beam").then((mod) => mod.BorderBeam),
-  { ssr: false }
-)
+import { Reveal } from "@/components/animations/reveal"
+import { BorderBeam } from "@/components/common/border-beam"
 
 export type ReviewBadgeProps = React.HTMLAttributes<HTMLDivElement> & {
   classNameContainer?: string

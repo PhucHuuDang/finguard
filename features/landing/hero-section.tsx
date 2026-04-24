@@ -11,7 +11,7 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto mt-8 flex min-h-[85vh] max-w-6xl items-center px-6 pt-24 lg:mt-0 lg:min-h-[70vh] lg:scale-95 lg:px-8 xl:scale-100">
-        <div className="flex w-full flex-col items-center justify-center gap-16 lg:flex-row lg:gap-20">
+        <div className="flex w-full flex-col items-center justify-center gap-28 lg:flex-row lg:gap-40">
           {/* Left: Hero Copy */}
           <div className="w-full max-w-lg shrink-0">
             <Reveal>
@@ -21,7 +21,7 @@ export function HeroSection() {
 
           {/* Right: Trading Card */}
           <div className="flex w-full justify-center lg:w-auto">
-            <div className="scale-95 sm:scale-100 lg:scale-[0.95]">
+            <div className="scale-95 sm:scale-100 lg:scale-105 xl:scale-110">
               <Reveal>
                 <TradingCard />
               </Reveal>

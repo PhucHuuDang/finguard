@@ -16,46 +16,45 @@ const navLinks = [
 
 export function Navbar() {
   return (
-    <nav className="fixed top-6 right-0 left-0 z-50 mx-auto flex w-full max-w-2xl items-center justify-center px-4">
-      <div className="flex w-full items-center justify-between gap-2 rounded-xl bg-neutral-900/30 px-6 py-1 backdrop-blur-xl">
+    <nav className="fixed top-6 right-0 left-0 z-50 mx-auto flex w-full max-w-7xl items-center justify-center px-4">
+      <div className="flex w-full items-center justify-between gap-4 rounded-2xl bg-neutral-900/30 px-8 py-2 backdrop-blur-xl">
         {/* Logo */}
-        <Logo width={40} height={40} className="shrink-0 p-1 pt-1.5" />
+        <Logo width={50} height={50} className="shrink-0 p-1 pt-1.5" />
 
         {/* Desktop Links */}
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="hidden items-center gap-2 md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.label}
               href={link.href}
-              className={`flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors ${
+              className={`flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
                 link.active
                   ? "text-orange-400"
                   : "text-neutral-200 hover:text-orange-400"
               }`}
             >
               {link.label}
-              {link.hasDropdown && <ChevronDown className="size-3.5" />}
+              {link.hasDropdown && <ChevronDown className="size-4" />}
             </Link>
           ))}
         </div>
 
         {/* Right Actions */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-5">
           <button className="relative text-neutral-400 transition-colors hover:text-neutral-200">
-            <ShoppingCart className="size-5" />
-            <Badge className="absolute -top-2 -right-2 flex size-4 items-center justify-center rounded-full bg-orange-500 p-0 text-[10px] text-white">
+            <ShoppingCart className="size-6" />
+            <Badge className="absolute -top-2 -right-2 flex size-5 items-center justify-center rounded-full bg-orange-500 p-0 text-[11px] text-white">
               0
             </Badge>
           </button>
           <Button
             variant="outline"
-            size="sm"
-            className="rounded-full border-neutral-700 bg-white px-5 text-xs font-medium hover:bg-neutral-200"
+            className="h-10 rounded-full border-neutral-700 bg-white px-7 text-sm font-medium hover:bg-neutral-200"
           >
             Login
           </Button>
           <button className="text-neutral-400 md:hidden">
-            <Menu className="size-5" />
+            <Menu className="size-6" />
           </button>
         </div>
       </div>
