@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/common/navbar"
+import { FaqSection } from "@/features/landing/faq"
 import { HeroSection } from "@/features/landing/hero-section"
 import { Market } from "@/features/landing/market"
 import { OurFeatures } from "@/features/landing/our-features"
@@ -14,6 +15,7 @@ export default function Page() {
       <Market />
       <OurFeatures />
       <SupportLanguages />
+      <FaqSection />
     </main>
   )
 }

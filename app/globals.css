@@ -190,6 +190,16 @@
   }
 }
 
+@layer utilities {
+  .text-gradient-neutral {
+    @apply bg-linear-to-r from-neutral-300 to-neutral-600 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-primary {
+    @apply bg-linear-to-r from-primary to-primary-foreground bg-clip-text text-transparent;
+  }
+}
+
 /* ─── Landing Page Animations ─── */
 
 @keyframes float {
