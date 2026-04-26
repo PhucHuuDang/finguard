@@ -1,6 +1,4 @@
-"use client"
-
-import { ChevronDown, MoveRight } from "lucide-react"
+import { ChevronDown } from "lucide-react"
 
 import {
   Accordion,
@@ -9,6 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { Reveal } from "@/components/animations/reveal"
+import { TitleSectionCommon } from "@/components/common/reuse-component"
 
 interface FaqItem {
   question: string
@@ -50,14 +49,10 @@ export function FaqSection() {
         <div className="flex w-full flex-col gap-16 lg:flex-row lg:justify-between lg:gap-12">
           {/* Left Column */}
           <div className="w-full lg:w-[40%]">
-            <Reveal>
-              <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-[#2a1313] bg-[#160a0a] py-1.5 pr-1.5 pl-5 text-sm font-medium text-neutral-300">
-                <span>FAQ</span>
-                <div className="flex size-7 items-center justify-center rounded-full bg-[#E5D7D1]">
-                  <MoveRight className="size-3.5 text-neutral-900" />
-                </div>
-              </div>
-            </Reveal>
+            <TitleSectionCommon
+              title="FAQ"
+              className="mb-2 text-sm font-medium"
+            />
 
             <Reveal delay={0.1}>
               <h2 className="font-heading text-4xl leading-[1.1] font-bold tracking-tight text-white sm:text-5xl lg:text-[4.5rem]">

@@ -1,7 +1,6 @@
 import Image from "next/image"
-import { MoveRight } from "lucide-react"
 
-import { BorderBeam } from "@/components/common/border-beam"
+import { TitleSectionCommon } from "@/components/common/reuse-component"
 
 import { Reveal } from "../../components/animations/reveal"
 
@@ -71,14 +70,7 @@ export function SupportLanguages() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header Section */}
         <div className="flex flex-col items-center gap-4 text-center md:gap-8">
-          <Reveal>
-            <BorderBeam className="flex items-center gap-2 px-4 py-2">
-              <span>Languages</span>
-              <div className="flex size-6 items-center justify-center rounded-full bg-[#E5D7D1]">
-                <MoveRight className="size-3 text-neutral-900" />
-              </div>
-            </BorderBeam>
-          </Reveal>
+          <TitleSectionCommon title="Languages" className="py-2" />
 
           <Reveal delay={0.1}>
             <h2 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-5xl xl:text-6xl">

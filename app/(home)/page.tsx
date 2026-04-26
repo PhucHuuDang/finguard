@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/common/navbar"
+import { CtaSection } from "@/features/landing/cta-section"
 import { FaqSection } from "@/features/landing/faq"
 import { HeroSection } from "@/features/landing/hero-section"
 import { Market } from "@/features/landing/market"
@@ -16,6 +17,7 @@ export default function Page() {
       <OurFeatures />
       <SupportLanguages />
       <FaqSection />
+      <CtaSection />
     </main>
   )
 }
