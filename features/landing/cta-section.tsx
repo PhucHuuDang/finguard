@@ -65,7 +65,7 @@ export function CtaSection() {
                 {/* Action Button */}
                 <FlipButton asChild tapScale={0.95}>
                   <Link
-                    href="/main-page/contact"
+                    href="/contact"
                     className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-linear-to-r from-[#ea580c] to-[#c2410c] px-8 py-3.5 shadow-[0_4px_20px_rgba(234,88,12,0.4),inset_0_1px_1px_rgba(255,255,255,0.3)] transition-all duration-300"
                   >
                     <div className="absolute inset-0 bg-white/20 opacity-0 transition-opacity group-hover:opacity-20" />

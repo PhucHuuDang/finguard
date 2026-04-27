@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/common/navbar"
+import { BadgeShowcase } from "@/components/showcase/badge-showcase"
 import { CtaSection } from "@/features/landing/cta-section"
 import { FaqSection } from "@/features/landing/faq"
 import { HeroSection } from "@/features/landing/hero-section"
@@ -18,6 +19,8 @@ export default function Page() {
       <SupportLanguages />
       <FaqSection />
       <CtaSection />
+
+      {/* <BadgeShowcase /> */}
     </main>
   )
 }

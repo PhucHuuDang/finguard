@@ -1,55 +1,23 @@
-// app/not-found.tsx — Root-level catch-all for unmatched locales
-// next-intl requires this file to exist at the root level
+// app/not-found.tsx — Root-level catch-all for unmatched routes
+// Renders as a server component so we can provide NextIntlClientProvider for Footer
 
-"use client"
+import { NextIntlClientProvider } from "next-intl"
+import { getLocale, getMessages } from "next-intl/server"
 
-import Image from "next/image"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { Footer } from "@/components/common/footer"
 
-import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect"
-import { Button } from "@/components/ui/button"
+import { NotFoundContent } from "./not-found-content"
 
-export default function NotFound() {
-  const router = useRouter()
+export default async function NotFound() {
+  const locale = await getLocale()
+  const messages = await getMessages()
 
   return (
-    <div className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden p-6 text-center">
-      <BackgroundRippleEffect rows={20} cols={40} />
-
-      <div className="pointer-events-none relative z-10 flex flex-col items-center justify-center">
-        <div className="mb-8 flex justify-center">
-          <Image
-            src="/not-found.svg"
-            alt="404 Not Found"
-            width={230}
-            height={150}
-            priority
-          />
-        </div>
-
-        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-          This is not the page you are looking for
-        </h2>
-        <p className="pointer-events-auto mx-auto mb-8 max-w-md text-sm text-muted-foreground md:text-base">
-          <button
-            type="button"
-            onClick={() => router.back()}
-            className="font-medium text-primary hover:underline"
-          >
-            Go back
-          </button>{" "}
-          or head to the homepage to find a new path.
-        </p>
-
-        <Button
-          asChild
-          size="default"
-          className="pointer-events-auto min-w-[150px]"
-        >
-          <Link href="/">Go to homepage</Link>
-        </Button>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <div className="flex min-h-screen flex-col">
+        <NotFoundContent />
+        <Footer />
       </div>
-    </div>
+    </NextIntlClientProvider>
   )
 }

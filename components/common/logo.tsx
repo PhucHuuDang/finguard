@@ -8,6 +8,7 @@ export interface LogoProps {
   height?: number
   className?: string
   href?: string
+  style?: React.CSSProperties
 
   isColor?: boolean
 }
@@ -18,6 +19,7 @@ export function Logo({
   className,
   isColor = false,
   href = "/",
+  style,
 }: LogoProps) {
   return (
     <Link
@@ -26,7 +28,7 @@ export function Logo({
         "relative flex items-center justify-center overflow-hidden",
         className
       )}
-      style={{ width, height }}
+      style={{ width, height, ...style }}
     >
       <Image
         // src="/finguard.jpg"
