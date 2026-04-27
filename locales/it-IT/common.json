@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Home",
+    "pages": "Pagine",
+    "about": "Chi siamo",
+    "features": "Funzionalità",
+    "workspace": "Area di lavoro",
+    "pricing": "Prezzi",
+    "login": "Accedi"
+  },
+  "hero": {
+    "badge": "Presentazione",
+    "badge_2": "dei nostri Approfondimenti",
+    "title": "Conquista i tuoi obiettivi di trading",
+    "subtitle": "Personalizza il tuo percorso aziendale senza sforzo con la dashboard di Youflow, supportata da una suite di strumenti potenti a portata di mano.",
+    "button_start": "Inizia ora",
+    "button_learn": "Scopri di più"
+  },
+  "review": {
+    "excellent": "Eccellente"
+  },
+  "market": {
+    "heading": "Dove il mondo crea mercati",
+    "subheading": "Unisciti a 100 milioni di trader e investitori che prendono il futuro nelle proprie mani.",
+    "cta_button": "Esplora le funzionalità"
+  },
+  "features": {
+    "badge": "Le nostre funzionalità",
+    "heading_1": "La nostra potente",
+    "heading_dashboard": "Dashboard",
+    "heading_2": "Abilita oltre",
+    "heading_count": "234.000",
+    "heading_analytics": "Analisi",
+    "heading_3": "Ogni giorno",
+    "card_1_title": "Approfondimenti di mercato in tempo reale",
+    "card_1_description": "In Finguard, garantiamo pagamenti rapidi e affidabili con modello robusto e prova verificata su blockchain e social media.",
+    "card_2_title": "Analisi avanzata dell'account",
+    "card_2_description": "Personalizza il tuo percorso aziendale senza sforzo con la dashboard Finguard.",
+    "card_3_title": "Gestione del portfolio",
+    "card_3_description": "Migliora facilmente il tuo percorso aziendale con la tua dashboard Finguard!",
+    "card_4_title": "Strumenti grafici avanzati",
+    "card_4_description": "In Finguard, garantiamo pagamenti rapidi e affidabili con modello robusto e prova verificata su blockchain e social media."
+  },
+  "languages": {
+    "badge": "Lingue",
+    "heading": "Assistenza clienti",
+    "heading_highlight": "In 18 lingue",
+    "select_placeholder": "Seleziona lingua..."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading_1": "Domande",
+    "heading_2": "frequenti",
+    "heading_3": "",
+    "q1": "Cos'è il Liquidity Candle Tool e quali sono i suoi vantaggi?",
+    "a1": "Questo esclusivo strumento analitico ti aiuta a identificare con precisione le vere tendenze del flusso di denaro nel mercato. Trova punti di ingresso ottimali con Stop Loss molto stretto (30 - 80 Pips) e obiettivi di Take Profit elevati (100 - 1.000 Pips). Il WinRate rimane costantemente sopra il 60%, offrendo un rapporto Risk/Reward eccezionale.",
+    "q2": "Come funziona il Signal Group quotidianamente?",
+    "a2": "Il team Finguard fornisce analisi tecniche continue e aggiornamenti di notizie. Ogni giorno riceverai da 2 a 8 segnali VIP, con un profitto medio atteso di 300 Pips/giorno. Manteniamo un foglio di monitoraggio Excel giornaliero trasparente e organizziamo regolarmente sessioni di trading dal vivo con gli investitori.",
+    "q3": "Quanto capitale mi serve per l'Auto Trading Robot?",
+    "a3": "Puoi iniziare a sperimentare il Robot con un capitale minimo di 500$ (raccomandazione standard: 1.000$). Il Robot opera automaticamente su Oro e coppie valutarie, con un track record di 7 mesi che genera dallo 0,5% al 5% di profitto giornaliero. Il drawdown massimo è del 30% ed è completamente regolabile dall'investitore. La commissione di condivisione utili è del 30% a settimana.",
+    "q4": "Qual è la gestione del rischio per Master Copytrade?",
+    "a4": "Il nostro Master ha 8 anni di esperienza reale di combattimento e gestisce attualmente un conto FTMO da 100.000$. Si applicano principi di sicurezza: Trading solo su Oro, il 100% delle operazioni ha uno Stop Loss, e assolutamente nessuna operazione negativa tenuta durante la notte. Porta l'1-5% di profitto al giorno con un Max Drawdown del 30%. Il capitale minimo per copiare è 2.000$.",
+    "q5": "Ci sono corsi disponibili per principianti?",
+    "a5": "Sì, offriamo tre livelli. Base: Conoscenze fondamentali per principianti assoluti. Avanzato: Formazione sugli ingressi ottimali BUY/SELL per onde a breve e medio termine (300 - 500 Pips). Pro Class: Padroneggiare le tendenze principali su tutti i timeframe, utilizzando sia Scalping che Swing Trading per tendenze a lungo termine (500 - 1.000 Pips)."
+  },
+  "cta": {
+    "badge": "Presentazione dei nostri Approfondimenti",
+    "heading": "Diventa proprietario con pochi",
+    "heading_highlight": "Click",
+    "subheading": "Registrati in pochi minuti e inizia a costruire la tua ricchezza investendo in frazioni immobiliari a partire da soli 50$.",
+    "button_front": "Inizia ora",
+    "button_back": "Approfondisci"
+  },
+  "footer": {
+    "brand_tagline": "Conquista i tuoi obiettivi di trading",
+    "brand_description": "Personalizza il tuo percorso aziendale senza sforzo con la dashboard Finguard, supportata da una suite di strumenti potenti a portata di mano.",
+    "newsletter_title": "Iscriviti alla nostra newsletter",
+    "newsletter_placeholder": "Inserisci indirizzo email",
+    "quick_links": "Link rapidi",
+    "resources": "Risorse",
+    "social": "Social",
+    "legal": "Informazioni legali",
+    "copyright": "© {year} Finguard. Progettato & Sviluppato da",
+    "copyright_team": "Harry Dang & Finguard Team",
+
+    "powered_by": "Alimentato da",
+    "powered_by_tech": "Next.js",
+    "link_home": "Home",
+    "link_about": "Chi siamo",
+    "link_features": "Funzionalità",
+    "link_pricing": "Prezzi",
+    "link_career": "Carriera",
+    "link_contact": "Contattaci",
+    "link_blog": "Blog e Notizie",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Guida di stile",
+    "link_license": "Licenza",
+    "link_changelog": "Registro modifiche",
+    "link_protected": "Protetto da password",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "Questa non è la pagina che stai cercando",
+    "not_found_go_back": "Torna indietro",
+    "not_found_description": "o vai alla homepage per trovare un nuovo percorso.",
+    "not_found_go_home": "Vai alla homepage",
+    "error_title": "Si è verificato un errore!",
+    "error_description": "Il sistema sta subendo un'interruzione temporanea. Riprova più tardi o contatta l'assistenza.",
+    "error_detail_title": "Dettagli errore (Solo modalità Dev)",
+    "error_try_again": "Riprova",
+    "global_title": "Errore di struttura globale",
+    "global_description": "Si è verificato un errore critico del sistema nel layout root che non può essere recuperato normalmente.",
+    "reload_page": "Ricarica pagina",
+    "restore_state": "Ripristina stato"
+  }
+}

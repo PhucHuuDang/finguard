@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "pages": "Halaman",
+    "about": "Tentang",
+    "features": "Fitur",
+    "workspace": "Ruang Kerja",
+    "pricing": "Harga",
+    "login": "Masuk"
+  },
+  "hero": {
+    "badge": "Memperkenalkan",
+    "badge_2": "wawasan kami",
+    "title": "Taklukkan Tujuan Trading Anda",
+    "subtitle": "Sesuaikan perjalanan bisnis Anda dengan mudah menggunakan dashboard Youflow, didukung oleh rangkaian alat canggih di ujung jari Anda.",
+    "button_start": "Mulai Sekarang",
+    "button_learn": "Pelajari Lebih"
+  },
+  "review": {
+    "excellent": "Luar Biasa"
+  },
+  "market": {
+    "heading": "Tempat Dunia Menciptakan Pasar",
+    "subheading": "Bergabunglah dengan 100 juta trader dan investor yang mengambil masa depan ke tangan mereka sendiri.",
+    "cta_button": "Jelajahi Fitur"
+  },
+  "features": {
+    "badge": "Fitur Kami",
+    "heading_1": "Dashboard",
+    "heading_dashboard": "Canggih",
+    "heading_2": "Kami Mengaktifkan Lebih dari",
+    "heading_count": "234.000",
+    "heading_analytics": "Analitik",
+    "heading_3": "Setiap Hari",
+    "card_1_title": "Wawasan Pasar Real-Time",
+    "card_1_description": "Di Finguard, kami memastikan pembayaran cepat dan andal dengan model yang kuat dan bukti terverifikasi di blockchain dan media sosial.",
+    "card_2_title": "Analisis Akun Tingkat Lanjut",
+    "card_2_description": "Sesuaikan perjalanan bisnis Anda dengan mudah menggunakan dashboard Finguard.",
+    "card_3_title": "Manajemen Portofolio",
+    "card_3_description": "Tingkatkan perjalanan bisnis Anda dengan mudah menggunakan dashboard Finguard!",
+    "card_4_title": "Alat Charting Tingkat Lanjut",
+    "card_4_description": "Di Finguard, kami memastikan pembayaran cepat dan andal dengan model yang kuat dan bukti terverifikasi di blockchain dan media sosial."
+  },
+  "languages": {
+    "badge": "Bahasa",
+    "heading": "Dukungan Pelanggan",
+    "heading_highlight": "Dalam 18 Bahasa",
+    "select_placeholder": "Pilih bahasa..."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading_1": "Pertanyaan",
+    "heading_2": "yang Sering",
+    "heading_3": "Diajukan",
+    "q1": "Apa itu Liquidity Candle Tool dan manfaatnya?",
+    "a1": "Alat analisis eksklusif ini membantu Anda mengidentifikasi tren aliran uang yang sebenarnya di pasar secara akurat. Alat ini menemukan titik masuk optimal dengan Stop Loss yang sangat ketat (30 - 80 Pips) dan target Take Profit yang tinggi (100 - 1.000 Pips). WinRate tetap konsisten di atas 60%, menawarkan rasio Risk/Reward yang luar biasa.",
+    "q2": "Bagaimana Signal Group beroperasi setiap hari?",
+    "a2": "Tim Finguard menyediakan analisis teknis berkelanjutan dan pembaruan berita. Setiap hari, Anda akan menerima 2 hingga 8 sinyal VIP, dengan keuntungan rata-rata yang diharapkan sebesar 300 Pips/hari. Kami memelihara lembar pelacakan Excel harian yang transparan dan secara rutin mengadakan sesi trading langsung dengan investor.",
+    "q3": "Berapa modal yang saya butuhkan untuk Auto Trading Robot?",
+    "a3": "Anda dapat mulai merasakan Robot dengan modal minimum $500 (rekomendasi standar $1.000). Robot secara otomatis memperdagangkan Emas dan pasangan mata uang, dengan rekam jejak 7 bulan yang terbukti menghasilkan keuntungan harian 0,5% hingga 5%. Drawdown maksimum 30% dan sepenuhnya dapat disesuaikan oleh investor. Biaya bagi hasil 30% per minggu.",
+    "q4": "Apa manajemen risiko untuk Master Copytrade?",
+    "a4": "Master kami memiliki 8 tahun pengalaman pertempuran nyata dan saat ini mengelola akun dana FTMO senilai $100.000. Prinsip keamanan berlaku: Hanya trading Emas, 100% perdagangan memiliki Stop Loss, dan sama sekali tidak menahan perdagangan negatif semalam. Memberikan keuntungan 1-5% per hari dengan Max Drawdown 30%. Modal minimum untuk menyalin adalah $2.000.",
+    "q5": "Apakah ada kursus yang tersedia untuk pemula?",
+    "a5": "Ya, kami menawarkan tiga tingkat. Dasar: Pengetahuan dasar untuk pemula total. Lanjutan: Pelatihan entri BUY/SELL optimal untuk gelombang jangka pendek dan menengah (300 - 500 Pips). Pro Class: Kuasai tren utama di semua timeframe, memanfaatkan Scalping dan Swing Trading untuk tren jangka panjang (500 - 1.000 Pips)."
+  },
+  "cta": {
+    "badge": "Memperkenalkan wawasan kami",
+    "heading": "Jadilah Pemilik Properti dengan Beberapa",
+    "heading_highlight": "Klik",
+    "subheading": "Daftar dalam hitungan menit dan mulai membangun kekayaan Anda dengan berinvestasi dalam fraksi properti mulai dari hanya $50.",
+    "button_front": "Mulai Sekarang",
+    "button_back": "Selami Lebih Dalam"
+  },
+  "footer": {
+    "brand_tagline": "Taklukkan Tujuan Trading Anda",
+    "brand_description": "Sesuaikan perjalanan bisnis Anda dengan mudah menggunakan dashboard Finguard, didukung oleh rangkaian alat canggih di ujung jari Anda.",
+    "newsletter_title": "Berlangganan Newsletter Kami",
+    "newsletter_placeholder": "Masukkan alamat email",
+    "quick_links": "Tautan Cepat",
+    "resources": "Sumber Daya",
+    "social": "Sosial",
+    "legal": "Informasi Hukum",
+    "copyright": "© {year} Finguard. Dirancang & Dikembangkan oleh",
+    "copyright_team": "Tim Finguard",
+    "powered_by": "Didukung oleh",
+    "powered_by_tech": "Next.js",
+    "link_home": "Beranda",
+    "link_about": "Tentang",
+    "link_features": "Fitur",
+    "link_pricing": "Harga",
+    "link_career": "Karir",
+    "link_contact": "Hubungi Kami",
+    "link_blog": "Blog dan Berita",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Panduan Gaya",
+    "link_license": "Lisensi",
+    "link_changelog": "Log Perubahan",
+    "link_protected": "Dilindungi Kata Sandi",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "Ini bukan halaman yang Anda cari",
+    "not_found_go_back": "Kembali",
+    "not_found_description": "atau pergi ke beranda untuk menemukan jalur baru.",
+    "not_found_go_home": "Ke beranda",
+    "error_title": "Terjadi kesalahan!",
+    "error_description": "Sistem mengalami gangguan sementara. Silakan coba lagi nanti atau hubungi dukungan.",
+    "error_detail_title": "Detail kesalahan (Hanya mode Dev)",
+    "error_try_again": "Coba lagi",
+    "global_title": "Kesalahan Struktur Global",
+    "global_description": "Terjadi kesalahan sistem kritis di layout root yang tidak dapat dipulihkan secara normal.",
+    "reload_page": "Muat ulang halaman",
+    "restore_state": "Pulihkan status"
+  }
+}

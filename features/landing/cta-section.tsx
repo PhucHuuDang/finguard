@@ -1,7 +1,9 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { ArrowRightIcon, ArrowUpRight } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 import { StarsBackground } from "@/components/ui/stars"
 import {
@@ -13,6 +15,8 @@ import { Reveal } from "@/components/animations/reveal"
 import { TitleSectionCommon } from "@/components/common/reuse-component"
 
 export function CtaSection() {
+  const t = useTranslations("cta")
+
   return (
     <section className="relative overflow-hidden bg-black pb-28">
       <div className="mx-auto px-6 lg:px-48">
@@ -37,7 +41,7 @@ export function CtaSection() {
               <div className="relative z-10 flex flex-col items-center">
                 {/* Tag / Badge */}
                 <TitleSectionCommon
-                  title="Introducing our Insights"
+                  title={t("badge")}
                   className="mb-8 flex-row rounded-full border border-white/10 bg-white/5 pr-1.5 pl-4 backdrop-blur-md"
                   titleClassName="text-sm font-medium"
                   icon={
@@ -47,37 +51,39 @@ export function CtaSection() {
 
                 {/* Heading */}
                 <h2 className="mb-6 max-w-6xl font-heading text-3xl font-semibold tracking-tight text-white md:text-5xl lg:text-6xl">
-                  Become A Landlord In A Few{" "}
-                  <span className="text-gradient-neutral">Clicks</span>
+                  {t("heading")}{" "}
+                  <span className="text-gradient-neutral">
+                    {t("heading_highlight")}
+                  </span>
                 </h2>
 
                 {/* Subheading */}
                 <p className="md:text-md mb-10 max-w-4xl text-base font-semibold text-neutral-300">
-                  Sign up in minutes and begin building your wealth by investing
-                  in property fractions starting at just $50.
+                  {t("subheading")}
                 </p>
 
                 {/* Action Button */}
                 <FlipButton asChild tapScale={0.95}>
-                  <a
+                  <Link
                     href="/main-page/contact"
                     className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-linear-to-r from-[#ea580c] to-[#c2410c] px-8 py-3.5 shadow-[0_4px_20px_rgba(234,88,12,0.4),inset_0_1px_1px_rgba(255,255,255,0.3)] transition-all duration-300"
-                    // hover:shadow-[0_4px_30px_rgba(234,88,12,0.6),inset_0_1px_1px_rgba(255,255,255,0.3)]
                   >
                     <div className="absolute inset-0 bg-white/20 opacity-0 transition-opacity group-hover:opacity-20" />
 
                     <FlipButtonFront className="relative z-10 flex items-center gap-2 text-white">
                       <span className="text-base font-semibold">
-                        Get Started
+                        {t("button_front")}
                       </span>
                       <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </FlipButtonFront>
 
                     <FlipButtonBack className="relative z-10 flex items-center gap-2 text-white">
-                      <span className="text-base font-semibold">Deep Dive</span>
+                      <span className="text-base font-semibold">
+                        {t("button_back")}
+                      </span>
                       <ArrowRightIcon className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </FlipButtonBack>
-                  </a>
+                  </Link>
                 </FlipButton>
               </div>
             </StarsBackground>

@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import { AlertTriangle, RefreshCcw } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
@@ -13,8 +14,9 @@ export default function ErrorPage({
   error: Error & { digest?: string }
   reset: () => void
 }) {
+  const t = useTranslations("error")
+
   useEffect(() => {
-    // Log the error to an error reporting service like Sentry or Datadog
     console.error("Unhandled App Error:", error)
   }, [error])
 
@@ -27,18 +29,15 @@ export default function ErrorPage({
 
         <div className="space-y-2 text-center">
           <h2 className="text-2xl font-bold tracking-tight">
-            Đã có lỗi xảy ra!
+            {t("error_title")}
           </h2>
-          <p className="text-muted-foreground">
-            Hệ thống đang gặp gián đoạn tạm thời. Vui lòng thử lại sau hoặc liên
-            hệ hỗ trợ.
-          </p>
+          <p className="text-muted-foreground">{t("error_description")}</p>
         </div>
 
         {process.env.NODE_ENV === "development" && error.message && (
           <Alert variant="destructive" className="w-full text-left">
             <AlertTriangle className="h-4 w-4" />
-            <AlertTitle>Chi tiết lỗi (Chỉ hiển thị ở Dev mode)</AlertTitle>
+            <AlertTitle>{t("error_detail_title")}</AlertTitle>
             <AlertDescription className="wrap-break-words mt-2 font-mono text-xs">
               {error.message}
             </AlertDescription>
@@ -47,7 +46,7 @@ export default function ErrorPage({
 
         <Button onClick={() => reset()} className="w-full gap-2" size="lg">
           <RefreshCcw className="h-4 w-4" />
-          Thử lại ngay
+          {t("error_try_again")}
         </Button>
       </div>
     </div>

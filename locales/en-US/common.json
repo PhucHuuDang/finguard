@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Home",
+    "pages": "Pages",
+    "about": "About",
+    "features": "Features",
+    "workspace": "Workspace",
+    "pricing": "Pricing",
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "Introducing",
+    "badge_2": "our Insights",
+    "title": "Conquering Your Trading Goals",
+    "subtitle": "Customize your business journey effortlessly with Youflow's dashboard, backed by a suite of powerful tools at your fingertips.",
+    "button_start": "Get Started",
+    "button_learn": "Learn More"
+  },
+  "review": {
+    "excellent": "Excellent"
+  },
+  "market": {
+    "heading": "Where the World Creates Markets",
+    "subheading": "Join 100 million traders and investors taking the future into their own hands.",
+    "cta_button": "Explore Features"
+  },
+  "features": {
+    "badge": "Our Features",
+    "heading_1": "Our Powerful",
+    "heading_dashboard": "Dashboard",
+    "heading_2": "Enable Over",
+    "heading_count": "234.000",
+    "heading_analytics": "Analytics",
+    "heading_3": "Everyday",
+    "card_1_title": "Real-Time Market Insight",
+    "card_1_description": "At Finguard, we ensure fast, reliable payouts with robust model and verified proof on blockchain and social media.",
+    "card_2_title": "Advanced Account Analysis",
+    "card_2_description": "Customize your business journey effortlessly with Finguard dashboard.",
+    "card_3_title": "Portfolio Management",
+    "card_3_description": "Easily boost your business journey with your Finguard dashboard!",
+    "card_4_title": "Advanced Charting Tools",
+    "card_4_description": "At Finguard, we ensure fast, reliable payouts with robust model and verified proof on blockchain and social media."
+  },
+  "languages": {
+    "badge": "Languages",
+    "heading": "Customer Support",
+    "heading_highlight": "In 18 Languages",
+    "select_placeholder": "Select language..."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading_1": "Frequently",
+    "heading_2": "Asked",
+    "heading_3": "Questions",
+    "q1": "What is the Liquidity Candle Tool and its benefits?",
+    "a1": "This exclusive analytical tool helps you accurately identify the true money flow trends in the market. It finds optimal entry points with very tight Stop Loss (30 - 80 Pips) and high Take Profit targets (100 - 1,000 Pips). The WinRate stays consistently above 60%, offering an exceptional Risk/Reward ratio.",
+    "q2": "How does the Signal Group operate daily?",
+    "a2": "The Finguard team provides continuous technical analysis and news updates. Every day, you will receive 2 to 8 VIP signals, with an expected average profit of 300 Pips/day. We maintain a transparent daily Excel tracking sheet and regularly host live trading sessions with investors.",
+    "q3": "How much capital do I need for the Auto Trading Robot?",
+    "a3": "You can start experiencing the Robot with a minimum capital of $500 (standard recommendation is $1,000). The Robot automatically trades Gold and currency pairs, with a proven 7-month track record generating 0.5% to 5% daily profit. The maximum drawdown is 30% and is fully adjustable by the investor. Profit sharing fee is 30% per week.",
+    "q4": "What is the risk management for Master Copytrade?",
+    "a4": "Our Master has 8 years of real battle experience and currently manages a $100,000 FTMO fund account. Safety principles apply: Trading only Gold, 100% of trades have a Stop Loss, and absolutely no holding negative trades overnight. It brings 1-5% profit per day with a 30% Max Drawdown. The minimum capital to copy is $2,000.",
+    "q5": "Are there courses available for beginners?",
+    "a5": "Yes, we offer three levels. Basic: Foundational knowledge for complete beginners. Advanced: Training on optimal BUY/SELL entries for short and mid-term waves (300 - 500 Pips). Pro Class: Master the major trends across all timeframes, utilizing both Scalping and Swing Trading for long-term trends (500 - 1,000 Pips)."
+  },
+  "cta": {
+    "badge": "Introducing our Insights",
+    "heading": "Become A Landlord In A Few",
+    "heading_highlight": "Clicks",
+    "subheading": "Sign up in minutes and begin building your wealth by investing in property fractions starting at just $50.",
+    "button_front": "Get Started",
+    "button_back": "Deep Dive"
+  },
+  "footer": {
+    "brand_tagline": "Conquering Your Trading Goals",
+    "brand_description": "Customize your business journey effortlessly with Finguard dashboard, backed by a suite of powerful tools at your fingertips.",
+    "newsletter_title": "Subscribe To Our Newsletter",
+    "newsletter_placeholder": "Enter email address",
+    "quick_links": "Quick Links",
+    "resources": "Resources",
+    "social": "Social",
+    "legal": "Legal Information",
+    "copyright": "© {year} Finguard. Designed & Developed by",
+
+    "copyright_team": "Harry Dang & Finguard Team",
+
+    "powered_by": "Powered by",
+    "powered_by_tech": "Next.js",
+    "link_home": "Home",
+    "link_about": "About",
+    "link_features": "Features",
+    "link_pricing": "Pricing",
+    "link_career": "Career",
+    "link_contact": "Contact Us",
+    "link_blog": "Blog and News",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Style Guide",
+    "link_license": "License",
+    "link_changelog": "Changelog",
+    "link_protected": "Pass Protected",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "This is not the page you are looking for",
+    "not_found_go_back": "Go back",
+    "not_found_description": "or head to the homepage to find a new path.",
+    "not_found_go_home": "Go to homepage",
+    "error_title": "An error occurred!",
+    "error_description": "The system is experiencing a temporary disruption. Please try again later or contact support.",
+    "error_detail_title": "Error details (Dev mode only)",
+    "error_try_again": "Try again",
+    "global_title": "Global Structure Error",
+    "global_description": "A critical system error occurred in the root layout that cannot be recovered in the normal way.",
+    "reload_page": "Reload page",
+    "restore_state": "Restore state"
+  }
+}

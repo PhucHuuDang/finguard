@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -10,11 +11,10 @@ import { BorderBeam } from "@/components/common/border-beam"
 
 // --- Constants ---
 
-const FEATURES = [
+const FEATURES_DATA = [
   {
-    title: "Real-Time Market Insight",
-    description:
-      "At Finguard, we ensure fast, reliable payouts with robust model and verified proof on blockchain and social media.",
+    titleKey: "card_1_title",
+    descriptionKey: "card_1_description",
     image: "/features/read-time-image.png",
     imageAlt: "Real-time market insight dashboard with candlestick chart",
     imageWidth: 705,
@@ -25,11 +25,9 @@ const FEATURES = [
     ] as number[][], // green tones
   },
   {
-    title: "Advanced Account Analysis",
-    description:
-      "Customize your business journey effortlessly with Finguard dashboard.",
+    titleKey: "card_2_title",
+    descriptionKey: "card_2_description",
     icon: "/features/advanced-account.avif",
-    // image: "/features/body.avif",
     image:
       "https://cdn.prod.website-files.com/6840859dc0e82803d10f5190/687bf3aac82e2c2aba3eb5e6_Symbol%20Icon.svg",
     imageAlt: "Advanced account analysis interface",
@@ -41,9 +39,8 @@ const FEATURES = [
     ] as number[][], // orange tones
   },
   {
-    title: "Portfolio Management",
-    description:
-      "Easily boost your business journey with your Finguard dashboard!",
+    titleKey: "card_3_title",
+    descriptionKey: "card_3_description",
     image: "/features/features-04-image.avif",
     imageAlt: "Portfolio management grid showing stock positions",
     imageWidth: 500,
@@ -54,15 +51,11 @@ const FEATURES = [
     ] as number[][], // blue tones
   },
   {
-    title: "Advanced Charting Tools",
-    description:
-      "At Finguard, we ensure fast, reliable payouts with robust model and verified proof on blockchain and social media.",
-    // image: "/features/body.avif",
+    titleKey: "card_4_title",
+    descriptionKey: "card_4_description",
     image: "/features/features-04-image.avif",
     classNameContainer: "overflow-visible",
-
     imageAlt: "Advanced charting tools with candlestick patterns",
-
     secondSrc: "/features/body.avif",
     classNameSecondSrc: "top-0 z-10",
     imageWidth: 600,
@@ -88,7 +81,6 @@ function FeatureCard({
   large,
   delay,
   classNameSecondSrc,
-
   classNameContainer,
 }: {
   title: string
@@ -196,6 +188,8 @@ function FeatureCard({
 // --- Main Component ---
 
 export const OurFeatures = () => {
+  const t = useTranslations("features")
+
   return (
     <section className="relative overflow-hidden bg-black py-14 md:py-20 lg:py-24">
       {/* Background Image */}
@@ -220,7 +214,7 @@ export const OurFeatures = () => {
                 className="rounded-xl border-neutral-700/60 bg-neutral-900/60 text-sm text-neutral-300 backdrop-blur-sm hover:bg-neutral-800/60"
                 variant="outline"
               >
-                Our Features
+                {t("badge")}
               </Button>
             </BorderBeam>
           </div>
@@ -229,11 +223,17 @@ export const OurFeatures = () => {
         {/* Heading */}
         <Reveal delay={0.2} direction="up">
           <h2 className="mx-auto mt-6 max-w-3xl text-center font-heading text-xl leading-[1.15] font-bold tracking-tight text-white sm:text-2xl md:mt-8 md:text-3xl lg:text-[2.5rem]">
-            Our Powerful{" "}
-            <span className="text-neutral-300 italic">Dashboard</span> Enable
-            <br className="hidden sm:block" /> Over{" "}
-            <span className="text-orange-500">234.000</span>{" "}
-            <span className="text-neutral-300 italic">Analytics</span> Everyday
+            {t("heading_1")}{" "}
+            <span className="text-neutral-300 italic">
+              {t("heading_dashboard")}
+            </span>{" "}
+            {t("heading_2")}
+            <br className="hidden sm:block" />{" "}
+            <span className="text-orange-500">{t("heading_count")}</span>{" "}
+            <span className="text-neutral-300 italic">
+              {t("heading_analytics")}
+            </span>{" "}
+            {t("heading_3")}
           </h2>
         </Reveal>
 
@@ -242,29 +242,29 @@ export const OurFeatures = () => {
           {/* Row 1: Large left + Small right */}
           <div className="md:col-span-7">
             <FeatureCard
-              title={FEATURES[0].title}
-              description={FEATURES[0].description}
-              image={FEATURES[0].image}
-              imageAlt={FEATURES[0].imageAlt}
-              imageWidth={FEATURES[0].imageWidth}
-              imageHeight={FEATURES[0].imageHeight}
-              colors={FEATURES[0].colors}
+              title={t(FEATURES_DATA[0].titleKey)}
+              description={t(FEATURES_DATA[0].descriptionKey)}
+              image={FEATURES_DATA[0].image}
+              imageAlt={FEATURES_DATA[0].imageAlt}
+              imageWidth={FEATURES_DATA[0].imageWidth}
+              imageHeight={FEATURES_DATA[0].imageHeight}
+              colors={FEATURES_DATA[0].colors}
               large
               delay={0.3}
             />
           </div>
           <div className="md:col-span-5">
             <FeatureCard
-              title={FEATURES[1].title}
-              description={FEATURES[1].description}
-              image={FEATURES[1].image}
-              imageAlt={FEATURES[1].imageAlt}
-              imageWidth={FEATURES[1].imageWidth}
-              imageHeight={FEATURES[1].imageHeight}
-              secondSrc={FEATURES[1].icon}
+              title={t(FEATURES_DATA[1].titleKey)}
+              description={t(FEATURES_DATA[1].descriptionKey)}
+              image={FEATURES_DATA[1].image}
+              imageAlt={FEATURES_DATA[1].imageAlt}
+              imageWidth={FEATURES_DATA[1].imageWidth}
+              imageHeight={FEATURES_DATA[1].imageHeight}
+              secondSrc={FEATURES_DATA[1].icon}
               classNameSecondSrc="top-2 md:top-4"
               classNameContainer="overflow-visible"
-              colors={FEATURES[1].colors}
+              colors={FEATURES_DATA[1].colors}
               delay={0.4}
             />
           </div>
@@ -272,28 +272,28 @@ export const OurFeatures = () => {
           {/* Row 2: Small left + Large right */}
           <div className="md:col-span-5">
             <FeatureCard
-              title={FEATURES[2].title}
-              description={FEATURES[2].description}
-              image={FEATURES[2].image}
-              imageAlt={FEATURES[2].imageAlt}
-              imageWidth={FEATURES[2].imageWidth}
-              imageHeight={FEATURES[2].imageHeight}
-              colors={FEATURES[2].colors}
+              title={t(FEATURES_DATA[2].titleKey)}
+              description={t(FEATURES_DATA[2].descriptionKey)}
+              image={FEATURES_DATA[2].image}
+              imageAlt={FEATURES_DATA[2].imageAlt}
+              imageWidth={FEATURES_DATA[2].imageWidth}
+              imageHeight={FEATURES_DATA[2].imageHeight}
+              colors={FEATURES_DATA[2].colors}
               delay={0.5}
             />
           </div>
           <div className="md:col-span-7">
             <FeatureCard
-              title={FEATURES[3].title}
-              description={FEATURES[3].description}
-              image={FEATURES[3].image}
-              imageAlt={FEATURES[3].imageAlt}
-              imageWidth={FEATURES[3].imageWidth}
-              imageHeight={FEATURES[3].imageHeight}
-              secondSrc={FEATURES[3].secondSrc}
+              title={t(FEATURES_DATA[3].titleKey)}
+              description={t(FEATURES_DATA[3].descriptionKey)}
+              image={FEATURES_DATA[3].image}
+              imageAlt={FEATURES_DATA[3].imageAlt}
+              imageWidth={FEATURES_DATA[3].imageWidth}
+              imageHeight={FEATURES_DATA[3].imageHeight}
+              secondSrc={FEATURES_DATA[3].secondSrc}
               classNameSecondSrc="top-2 md:top-4"
               classNameContainer="overflow-visible"
-              colors={FEATURES[3].colors}
+              colors={FEATURES_DATA[3].colors}
               large
               delay={0.6}
             />

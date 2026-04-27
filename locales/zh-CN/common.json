@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "首页",
+    "pages": "页面",
+    "about": "关于我们",
+    "features": "功能",
+    "workspace": "工作区",
+    "pricing": "定价",
+    "login": "登录"
+  },
+  "hero": {
+    "badge": "隆重推出",
+    "badge_2": "我们的洞察",
+    "title": "征服您的交易目标",
+    "subtitle": "借助Youflow的仪表板轻松定制您的商业旅程，配备一套强大的工具供您使用。",
+    "button_start": "立即开始",
+    "button_learn": "了解更多"
+  },
+  "review": {
+    "excellent": "优秀"
+  },
+  "market": {
+    "heading": "全球市场创造之地",
+    "subheading": "加入1亿交易者和投资者，将未来掌握在自己手中。",
+    "cta_button": "探索功能"
+  },
+  "features": {
+    "badge": "我们的功能",
+    "heading_1": "我们强大的",
+    "heading_dashboard": "仪表板",
+    "heading_2": "每天支持超过",
+    "heading_count": "234,000",
+    "heading_analytics": "次分析",
+    "heading_3": "",
+    "card_1_title": "实时市场洞察",
+    "card_1_description": "在Finguard，我们通过强大的模型和区块链及社交媒体上的验证证明，确保快速、可靠的支付。",
+    "card_2_title": "高级账户分析",
+    "card_2_description": "使用Finguard仪表板轻松定制您的商业旅程。",
+    "card_3_title": "投资组合管理",
+    "card_3_description": "使用Finguard仪表板轻松提升您的商业旅程！",
+    "card_4_title": "高级图表工具",
+    "card_4_description": "在Finguard，我们通过强大的模型和区块链及社交媒体上的验证证明，确保快速、可靠的支付。"
+  },
+  "languages": {
+    "badge": "语言",
+    "heading": "客户支持",
+    "heading_highlight": "支持18种语言",
+    "select_placeholder": "选择语言..."
+  },
+  "faq": {
+    "badge": "常见问题",
+    "heading_1": "常见",
+    "heading_2": "问题",
+    "heading_3": "解答",
+    "q1": "什么是流动性蜡烛工具，它有什么好处？",
+    "a1": "这个独家分析工具帮助您准确识别市场中真正的资金流动趋势。它以非常紧凑的止损（30-80点）和高止盈目标（100-1,000点）找到最佳入场点。胜率持续保持在60%以上，提供卓越的风险/回报比率。",
+    "q2": "信号组每天如何运作？",
+    "a2": "Finguard团队提供持续的技术分析和新闻更新。每天，您将收到2至8个VIP信号，预期平均利润为300点/天。我们维护透明的每日Excel跟踪表，并定期与投资者举办实时交易会议。",
+    "q3": "自动交易机器人需要多少资金？",
+    "a3": "您可以以最低500美元的资金开始体验机器人（标准建议为1,000美元）。机器人自动交易黄金和货币对，拥有经过验证的7个月记录，每日产生0.5%至5%的利润。最大回撤为30%，完全可由投资者调整。利润分成费为每周30%。",
+    "q4": "Master Copytrade的风险管理是什么？",
+    "a4": "我们的大师拥有8年的实战经验，目前管理着10万美元的FTMO基金账户。安全原则适用：仅交易黄金，100%的交易都有止损，绝对不持有隔夜负面交易。每天带来1-5%的利润，最大回撤30%。最低跟单资金为2,000美元。",
+    "q5": "有适合初学者的课程吗？",
+    "a5": "是的，我们提供三个级别。基础：为完全初学者提供基础知识。高级：训练短期和中期波段（300-500点）的最佳买/卖入场。专业班：掌握所有时间框架的主要趋势，利用剥头皮和波段交易进行长期趋势交易（500-1,000点）。"
+  },
+  "cta": {
+    "badge": "推出我们的洞察",
+    "heading": "只需几次",
+    "heading_highlight": "点击",
+    "subheading": "几分钟内注册，开始通过投资低至50美元的房产份额来积累财富。",
+    "button_front": "立即开始",
+    "button_back": "深入了解"
+  },
+  "footer": {
+    "brand_tagline": "征服您的交易目标",
+    "brand_description": "使用Finguard仪表板轻松定制您的商业旅程，配备一套强大的工具供您使用。",
+    "newsletter_title": "订阅我们的新闻通讯",
+    "newsletter_placeholder": "输入电子邮件地址",
+    "quick_links": "快速链接",
+    "resources": "资源",
+    "social": "社交",
+    "legal": "法律信息",
+    "copyright": "© {year} Finguard. 设计与开发：",
+    "copyright_team": "Finguard 团队",
+    "powered_by": "技术支持：",
+    "powered_by_tech": "Next.js",
+    "link_home": "首页",
+    "link_about": "关于我们",
+    "link_features": "功能",
+    "link_pricing": "定价",
+    "link_career": "职业",
+    "link_contact": "联系我们",
+    "link_blog": "博客与新闻",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "样式指南",
+    "link_license": "许可证",
+    "link_changelog": "更新日志",
+    "link_protected": "密码保护",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "这不是您要找的页面",
+    "not_found_go_back": "返回",
+    "not_found_description": "或前往首页寻找新路径。",
+    "not_found_go_home": "前往首页",
+    "error_title": "发生错误！",
+    "error_description": "系统正在经历临时中断。请稍后重试或联系支持。",
+    "error_detail_title": "错误详情（仅开发模式）",
+    "error_try_again": "重试",
+    "global_title": "全局结构错误",
+    "global_description": "根布局中发生了无法正常恢复的严重系统错误。",
+    "reload_page": "重新加载页面",
+    "restore_state": "恢复状态"
+  }
+}

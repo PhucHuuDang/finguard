@@ -1,9 +1,14 @@
-import Link from "next/link"
+"use client"
+
+import { useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
 import { Reveal } from "@/components/animations/reveal"
+import { Link } from "@/i18n/navigation"
 
 export const Market = () => {
+  const t = useTranslations("market")
+
   return (
     <section className="relative flex w-full flex-col items-center justify-center overflow-hidden py-8 md:py-14">
       {/* Background Aurora */}
@@ -28,13 +33,12 @@ export const Market = () => {
         <div className="flex max-w-3xl flex-col items-center gap-4">
           <Reveal direction="up" delay={0.1}>
             <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl">
-              Nơi cả thế giới tạo lập thị trường
+              {t("heading")}
             </h2>
           </Reveal>
           <Reveal direction="up" delay={0.2}>
             <p className="text-base text-neutral-400 md:text-lg">
-              Hãy cùng 100 triệu nhà giao dịch và nhà đầu tư nắm giữ tương lai
-              trong tay mình.
+              {t("subheading")}
             </p>
           </Reveal>
         </div>
@@ -46,7 +50,6 @@ export const Market = () => {
           className="mt-8 flex w-full justify-center"
         >
           <div className="relative w-full max-w-5xl rounded-2xl bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 p-[2px] shadow-2xl shadow-purple-500/20">
-            {/* inner component needs exact reduced border radius for perfect outer border width matching at corners */}
             <div className="h-full w-full overflow-hidden rounded-[calc(var(--radius-2xl)-2px)] bg-black">
               <video
                 className="w-full object-cover"
@@ -80,7 +83,7 @@ export const Market = () => {
             size="lg"
             className="h-14 rounded-full bg-white px-8 text-base font-semibold text-black hover:bg-neutral-200"
           >
-            <Link href="/features">Khám phá tính năng</Link>
+            <Link href="/features">{t("cta_button")}</Link>
           </Button>
         </Reveal>
       </div>

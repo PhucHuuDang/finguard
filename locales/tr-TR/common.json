@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "pages": "Sayfalar",
+    "about": "Hakkımızda",
+    "features": "Özellikler",
+    "workspace": "Çalışma Alanı",
+    "pricing": "Fiyatlandırma",
+    "login": "Giriş Yap"
+  },
+  "hero": {
+    "badge": "Tanıtım",
+    "badge_2": "içgörülerimiz",
+    "title": "Ticaret Hedeflerinizi Fethedin",
+    "subtitle": "İş yolculuğunuzu Youflow'un gösterge paneli ile zahmetsizce özelleştirin, parmaklarınızın ucundaki güçlü araçlarla desteklenen.",
+    "button_start": "Başlayın",
+    "button_learn": "Daha Fazla"
+  },
+  "review": {
+    "excellent": "Mükemmel"
+  },
+  "market": {
+    "heading": "Dünyanın Piyasalar Yarattığı Yer",
+    "subheading": "Geleceği kendi ellerine alan 100 milyon tüccar ve yatırımcıya katılın.",
+    "cta_button": "Özellikleri Keşfet"
+  },
+  "features": {
+    "badge": "Özelliklerimiz",
+    "heading_1": "Güçlü",
+    "heading_dashboard": "Gösterge Panelimiz",
+    "heading_2": "Her Gün",
+    "heading_count": "234.000",
+    "heading_analytics": "Analizden",
+    "heading_3": "Fazlasını Sağlar",
+    "card_1_title": "Gerçek Zamanlı Piyasa Analizi",
+    "card_1_description": "Finguard'da, sağlam model ve blockchain ile sosyal medyadaki doğrulanmış kanıtlarla hızlı ve güvenilir ödemeleri garanti ediyoruz.",
+    "card_2_title": "Gelişmiş Hesap Analizi",
+    "card_2_description": "Finguard gösterge paneli ile iş yolculuğunuzu zahmetsizce özelleştirin.",
+    "card_3_title": "Portföy Yönetimi",
+    "card_3_description": "Finguard gösterge panelinizle iş yolculuğunuzu kolayca geliştirin!",
+    "card_4_title": "Gelişmiş Grafik Araçları",
+    "card_4_description": "Finguard'da, sağlam model ve blockchain ile sosyal medyadaki doğrulanmış kanıtlarla hızlı ve güvenilir ödemeleri garanti ediyoruz."
+  },
+  "languages": {
+    "badge": "Diller",
+    "heading": "Müşteri Desteği",
+    "heading_highlight": "18 Dilde",
+    "select_placeholder": "Dil seçin..."
+  },
+  "faq": {
+    "badge": "SSS",
+    "heading_1": "Sıkça",
+    "heading_2": "Sorulan",
+    "heading_3": "Sorular",
+    "q1": "Liquidity Candle Aracı nedir ve faydaları nelerdir?",
+    "a1": "Bu özel analitik araç, piyasadaki gerçek para akışı trendlerini doğru bir şekilde belirlemenize yardımcı olur. Çok sıkı Stop Loss (30 - 80 Pip) ve yüksek Take Profit hedefleri (100 - 1.000 Pip) ile optimal giriş noktalarını bulur. Kazanma oranı sürekli olarak %60'ın üzerinde kalarak olağanüstü bir Risk/Ödül oranı sunar.",
+    "q2": "Sinyal Grubu günlük olarak nasıl çalışır?",
+    "a2": "Finguard ekibi sürekli teknik analiz ve haber güncellemeleri sağlar. Her gün 2 ila 8 VIP sinyal alırsınız ve beklenen ortalama kâr 300 Pip/gündür. Şeffaf bir günlük Excel izleme tablosu tutuyoruz ve yatırımcılarla düzenli olarak canlı ticaret seansları düzenliyoruz.",
+    "q3": "Otomatik Ticaret Robotu için ne kadar sermaye gerekiyor?",
+    "a3": "Robotu minimum 500$ sermaye ile deneyimlemeye başlayabilirsiniz (standart önerimiz 1.000$'dır). Robot, Altın ve döviz çiftlerini otomatik olarak işlem yapar ve kanıtlanmış 7 aylık bir geçmişle günlük %0,5 ila %5 kâr üretir. Maksimum düşüş %30'dur ve yatırımcı tarafından tamamen ayarlanabilir. Kâr paylaşım ücreti haftalık %30'dur.",
+    "q4": "Master Copytrade'in risk yönetimi nasıldır?",
+    "a4": "Master'ımızın 8 yıllık gerçek savaş deneyimi vardır ve şu anda 100.000$'lık bir FTMO fon hesabını yönetmektedir. Güvenlik ilkeleri geçerlidir: Yalnızca Altın ticareti, işlemlerin %100'ünde Stop Loss bulunur ve olumsuz işlemleri gece boyunca tutmak kesinlikle yasaktır. Günlük %1-5 kâr ve %30 Maksimum Düşüş getirir. Kopyalama için minimum sermaye 2.000$'dır.",
+    "q5": "Yeni başlayanlar için kurslar mevcut mu?",
+    "a5": "Evet, üç seviye sunuyoruz. Temel: Tamamen yeni başlayanlar için temel bilgiler. İleri Düzey: Kısa ve orta vadeli dalgalar (300 - 500 Pip) için optimal AL/SAT girişi eğitimi. Pro Class: Hem Scalping hem de Swing Trading kullanarak tüm zaman dilimlerinde ana trendleri ustalaşma (500 - 1.000 Pip)."
+  },
+  "cta": {
+    "badge": "İçgörülerimizi tanıtıyoruz",
+    "heading": "Birkaç",
+    "heading_highlight": "Tıkla",
+    "subheading": "Dakikalar içinde kaydolun ve sadece 50$'dan başlayan mülk paylarına yatırım yaparak servetinizi oluşturmaya başlayın.",
+    "button_front": "Başlayın",
+    "button_back": "Derinleşin"
+  },
+  "footer": {
+    "brand_tagline": "Ticaret Hedeflerinizi Fethedin",
+    "brand_description": "Finguard gösterge paneli ile iş yolculuğunuzu zahmetsizce özelleştirin. Güçlü araçlar parmaklarınızın ucunda.",
+    "newsletter_title": "Bültenimize Abone Olun",
+    "newsletter_placeholder": "E-posta adresini girin",
+    "quick_links": "Hızlı Bağlantılar",
+    "resources": "Kaynaklar",
+    "social": "Sosyal",
+    "legal": "Yasal Bilgiler",
+    "copyright": "© {year} Finguard. Tasarlayan ve Geliştiren:",
+    "copyright_team": "Finguard Ekibi",
+    "powered_by": "Altyapı:",
+    "powered_by_tech": "Next.js",
+    "link_home": "Ana Sayfa",
+    "link_about": "Hakkımızda",
+    "link_features": "Özellikler",
+    "link_pricing": "Fiyatlandırma",
+    "link_career": "Kariyer",
+    "link_contact": "İletişim",
+    "link_blog": "Blog ve Haberler",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Stil Rehberi",
+    "link_license": "Lisans",
+    "link_changelog": "Değişiklik Günlüğü",
+    "link_protected": "Şifre Korumalı",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "Aradığınız sayfa bu değil",
+    "not_found_go_back": "Geri dön",
+    "not_found_description": "veya yeni bir yol bulmak için ana sayfaya gidin.",
+    "not_found_go_home": "Ana sayfaya git",
+    "error_title": "Bir hata oluştu!",
+    "error_description": "Sistem geçici bir kesinti yaşıyor. Lütfen daha sonra tekrar deneyin veya destek ekibine başvurun.",
+    "error_detail_title": "Hata detayları (Sadece Geliştirme modu)",
+    "error_try_again": "Tekrar dene",
+    "global_title": "Küresel Yapı Hatası",
+    "global_description": "Kök düzende normal şekilde kurtarılamayan kritik bir sistem hatası oluştu.",
+    "reload_page": "Sayfayı yeniden yükle",
+    "restore_state": "Durumu geri yükle"
+  }
+}

@@ -1,4 +1,7 @@
+"use client"
+
 import { ChevronDown } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 import {
   Accordion,
@@ -9,40 +12,17 @@ import {
 import { Reveal } from "@/components/animations/reveal"
 import { TitleSectionCommon } from "@/components/common/reuse-component"
 
-interface FaqItem {
-  question: string
-  answer: string
-}
-
-const faqs: FaqItem[] = [
-  {
-    question: "What is the Liquidity Candle Tool and its benefits?",
-    answer:
-      "This exclusive analytical tool helps you accurately identify the true money flow trends in the market. It finds optimal entry points with very tight Stop Loss (30 - 80 Pips) and high Take Profit targets (100 - 1,000 Pips). The WinRate stays consistently above 60%, offering an exceptional Risk/Reward ratio.",
-  },
-  {
-    question: "How does the Signal Group operate daily?",
-    answer:
-      "The Finguard team provides continuous technical analysis and news updates. Every day, you will receive 2 to 8 VIP signals, with an expected average profit of 300 Pips/day. We maintain a transparent daily Excel tracking sheet and regularly host live trading sessions with investors.",
-  },
-  {
-    question: "How much capital do I need for the Auto Trading Robot?",
-    answer:
-      "You can start experiencing the Robot with a minimum capital of $500 (standard recommendation is $1,000). The Robot automatically trades Gold and currency pairs, with a proven 7-month track record generating 0.5% to 5% daily profit. The maximum drawdown is 30% and is fully adjustable by the investor. Profit sharing fee is 30% per week.",
-  },
-  {
-    question: "What is the risk management for Master Copytrade?",
-    answer:
-      "Our Master has 8 years of real battle experience and currently manages a $100,000 FTMO fund account. Safety principles apply: Trading only Gold, 100% of trades have a Stop Loss, and absolutely no holding negative trades overnight. It brings 1-5% profit per day with a 30% Max Drawdown. The minimum capital to copy is $2,000.",
-  },
-  {
-    question: "Are there courses available for beginners?",
-    answer:
-      "Yes, we offer three levels. Basic: Foundational knowledge for complete beginners. Advanced: Training on optimal BUY/SELL entries for short and mid-term waves (300 - 500 Pips). Pro Class: Master the major trends across all timeframes, utilizing both Scalping and Swing Trading for long-term trends (500 - 1,000 Pips).",
-  },
-]
-
 export function FaqSection() {
+  const t = useTranslations("faq")
+
+  const faqs = [
+    { question: t("q1"), answer: t("a1") },
+    { question: t("q2"), answer: t("a2") },
+    { question: t("q3"), answer: t("a3") },
+    { question: t("q4"), answer: t("a4") },
+    { question: t("q5"), answer: t("a5") },
+  ]
+
   return (
     <section className="relative overflow-hidden bg-black py-28">
       <div className="mx-auto px-6 lg:px-48">
@@ -50,15 +30,18 @@ export function FaqSection() {
           {/* Left Column */}
           <div className="w-full lg:w-[40%]">
             <TitleSectionCommon
-              title="FAQ"
+              title={t("badge")}
               className="mb-2 text-sm font-medium"
             />
 
             <Reveal delay={0.1}>
               <h2 className="font-heading text-4xl leading-[1.1] font-bold tracking-tight text-white sm:text-5xl lg:text-[4.5rem]">
-                Frequently
-                <span className="text-gradient-neutral ml-2">Asked</span> <br />
-                Questions
+                {t("heading_1")}
+                <span className="text-gradient-neutral ml-2">
+                  {t("heading_2")}
+                </span>{" "}
+                <br />
+                {t("heading_3")}
               </h2>
             </Reveal>
           </div>

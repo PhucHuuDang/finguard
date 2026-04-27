@@ -190,6 +190,11 @@
   }
 }
 
+body[data-scroll-locked] .navbar-fixed {
+  right: var(--removed-body-scroll-bar-size, 0px) !important;
+  padding-right: 1rem !important;
+}
+
 @layer utilities {
   .text-gradient-neutral {
     @apply bg-linear-to-r from-neutral-300 to-neutral-600 bg-clip-text text-transparent;

@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Domů",
+    "pages": "Stránky",
+    "about": "O nás",
+    "features": "Funkce",
+    "workspace": "Pracovní prostor",
+    "pricing": "Ceník",
+    "login": "Přihlásit se"
+  },
+  "hero": {
+    "badge": "Představujeme",
+    "badge_2": "naše poznatky",
+    "title": "Dobyjte své obchodní cíle",
+    "subtitle": "Přizpůsobte si svou obchodní cestu bez námahy s dashboardem Youflow, podpořeným sadou výkonných nástrojů na dosah ruky.",
+    "button_start": "Začít",
+    "button_learn": "Zjistit více"
+  },
+  "review": {
+    "excellent": "Vynikající"
+  },
+  "market": {
+    "heading": "Kde svět vytváří trhy",
+    "subheading": "Připojte se ke 100 milionům obchodníků a investorů, kteří berou budoucnost do vlastních rukou.",
+    "cta_button": "Prozkoumat funkce"
+  },
+  "features": {
+    "badge": "Naše funkce",
+    "heading_1": "Náš výkonný",
+    "heading_dashboard": "Dashboard",
+    "heading_2": "Umožňuje více než",
+    "heading_count": "234 000",
+    "heading_analytics": "Analýz",
+    "heading_3": "Každý den",
+    "card_1_title": "Tržní přehledy v reálném čase",
+    "card_1_description": "Ve Finguardu zajišťujeme rychlé a spolehlivé výplaty s robustním modelem a ověřeným důkazem na blockchainu a sociálních médiích.",
+    "card_2_title": "Pokročilá analýza účtu",
+    "card_2_description": "Přizpůsobte si svou obchodní cestu bez námahy s dashboardem Finguard.",
+    "card_3_title": "Správa portfolia",
+    "card_3_description": "Snadno vylepšete svou obchodní cestu s dashboardem Finguard!",
+    "card_4_title": "Pokročilé nástroje pro grafy",
+    "card_4_description": "Ve Finguardu zajišťujeme rychlé a spolehlivé výplaty s robustním modelem a ověřeným důkazem na blockchainu a sociálních médiích."
+  },
+  "languages": {
+    "badge": "Jazyky",
+    "heading": "Zákaznická podpora",
+    "heading_highlight": "V 18 jazycích",
+    "select_placeholder": "Vyberte jazyk..."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading_1": "Často",
+    "heading_2": "kladené",
+    "heading_3": "Dotazy",
+    "q1": "Co je Liquidity Candle Tool a jaké jsou jeho výhody?",
+    "a1": "Tento exkluzivní analytický nástroj vám pomáhá přesně identifikovat skutečné trendy toku peněz na trhu. Nachází optimální vstupní body s velmi těsným Stop Loss (30–80 Pips) a vysokými cíli Take Profit (100–1 000 Pips). WinRate se drží konzistentně nad 60 %, nabízí výjimečný poměr Risk/Reward.",
+    "q2": "Jak Signal Group funguje denně?",
+    "a2": "Tým Finguard poskytuje průběžnou technickou analýzu a aktualizace zpráv. Každý den obdržíte 2–8 VIP signálů s očekávaným průměrným ziskem 300 Pips/den. Udržujeme transparentní denní Excel tabulku a pravidelně pořádáme živé obchodní sezení s investory.",
+    "q3": "Kolik kapitálu potřebuji pro Auto Trading Robota?",
+    "a3": "Robota můžete začít zkoušet s minimálním kapitálem 500 $ (standardní doporučení je 1 000 $). Robot automaticky obchoduje zlato a měnové páry s prokázanou 7měsíční historií generující 0,5 % až 5 % denního zisku. Maximální drawdown je 30 % a je plně nastavitelný investorem. Poplatek za sdílení zisku je 30 % týdně.",
+    "q4": "Jaké je řízení rizik pro Master Copytrade?",
+    "a4": "Náš Master má 8 let skutečných bojových zkušeností a v současné době spravuje FTMO fondový účet v hodnotě 100 000 $. Platí bezpečnostní principy: Obchodování pouze se zlatem, 100 % obchodů má Stop Loss a absolutně žádné držení negativních obchodů přes noc. Přináší 1–5 % zisku denně s 30 % Max Drawdown. Minimální kapitál pro kopírování je 2 000 $.",
+    "q5": "Jsou k dispozici kurzy pro začátečníky?",
+    "a5": "Ano, nabízíme tři úrovně. Základní: Základní znalosti pro úplné začátečníky. Pokročilý: Trénink optimálních vstupů BUY/SELL pro krátkodobé a střednědobé vlny (300–500 Pips). Pro Class: Zvládněte hlavní trendy na všech časových rámcích s využitím Scalpingu i Swing Tradingu pro dlouhodobé trendy (500–1 000 Pips)."
+  },
+  "cta": {
+    "badge": "Představujeme naše poznatky",
+    "heading": "Staňte se pronajímatelem několika",
+    "heading_highlight": "Kliknutími",
+    "subheading": "Zaregistrujte se během několika minut a začněte budovat své bohatství investováním do nemovitostních podílů od pouhých 50 $.",
+    "button_front": "Začít",
+    "button_back": "Ponořit se"
+  },
+  "footer": {
+    "brand_tagline": "Dobyjte své obchodní cíle",
+    "brand_description": "Přizpůsobte si svou obchodní cestu bez námahy s dashboardem Finguard, podpořeným sadou výkonných nástrojů na dosah ruky.",
+    "newsletter_title": "Odebírejte náš newsletter",
+    "newsletter_placeholder": "Zadejte e-mailovou adresu",
+    "quick_links": "Rychlé odkazy",
+    "resources": "Zdroje",
+    "social": "Sociální sítě",
+    "legal": "Právní informace",
+    "copyright": "© {year} Finguard. Navrženo a vyvinuto",
+    "copyright_team": "Harry Dang & Finguard Team",
+    "powered_by": "Provozováno na",
+    "powered_by_tech": "Next.js",
+    "link_home": "Domů",
+    "link_about": "O nás",
+    "link_features": "Funkce",
+    "link_pricing": "Ceník",
+    "link_career": "Kariéra",
+    "link_contact": "Kontaktujte nás",
+    "link_blog": "Blog a novinky",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Průvodce stylem",
+    "link_license": "Licence",
+    "link_changelog": "Protokol změn",
+    "link_protected": "Chráněno heslem",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "Toto není stránka, kterou hledáte",
+    "not_found_go_back": "Zpět",
+    "not_found_description": "nebo přejděte na domovskou stránku a najděte novou cestu.",
+    "not_found_go_home": "Na domovskou stránku",
+    "error_title": "Došlo k chybě!",
+    "error_description": "Systém zažívá dočasné přerušení. Zkuste to prosím později nebo kontaktujte podporu.",
+    "error_detail_title": "Podrobnosti chyby (pouze vývojový režim)",
+    "error_try_again": "Zkusit znovu",
+    "global_title": "Globální chyba struktury",
+    "global_description": "V kořenovém rozložení došlo ke kritické systémové chybě, kterou nelze normálně obnovit.",
+    "reload_page": "Znovu načíst stránku",
+    "restore_state": "Obnovit stav"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Hem",
+    "pages": "Sidor",
+    "about": "Om oss",
+    "features": "Funktioner",
+    "workspace": "Arbetsyta",
+    "pricing": "Priser",
+    "login": "Logga in"
+  },
+  "hero": {
+    "badge": "Introduktion",
+    "badge_2": "våra insikter",
+    "title": "Erövra dina handelsmål",
+    "subtitle": "Anpassa din affärsresa enkelt med Youflows instrumentpanel, stödd av en uppsättning kraftfulla verktyg till hands.",
+    "button_start": "Kom igång",
+    "button_learn": "Läs mer"
+  },
+  "review": {
+    "excellent": "Utmärkt"
+  },
+  "market": {
+    "heading": "Där hela världen skapar marknader",
+    "subheading": "Gå med 100 miljoner handlare och investerare som tar framtiden i egna händer.",
+    "cta_button": "Utforska funktioner"
+  },
+  "features": {
+    "badge": "Våra funktioner",
+    "heading_1": "Vår kraftfulla",
+    "heading_dashboard": "Instrumentpanel",
+    "heading_2": "Möjliggör över",
+    "heading_count": "234.000",
+    "heading_analytics": "Analyser",
+    "heading_3": "Varje dag",
+    "card_1_title": "Marknadsinsikt i realtid",
+    "card_1_description": "På Finguard säkerställer vi snabba, pålitliga utbetalningar med robust modell och verifierat bevis på blockchain och sociala medier.",
+    "card_2_title": "Avancerad kontoanalys",
+    "card_2_description": "Anpassa din affärsresa enkelt med Finguards instrumentpanel.",
+    "card_3_title": "Portföljhantering",
+    "card_3_description": "Förbättra enkelt din affärsresa med din Finguard-instrumentpanel!",
+    "card_4_title": "Avancerade diagramverktyg",
+    "card_4_description": "På Finguard säkerställer vi snabba, pålitliga utbetalningar med robust modell och verifierat bevis på blockchain och sociala medier."
+  },
+  "languages": {
+    "badge": "Språk",
+    "heading": "Kundsupport",
+    "heading_highlight": "På 18 språk",
+    "select_placeholder": "Välj språk..."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading_1": "Vanliga",
+    "heading_2": "frågor",
+    "heading_3": "och svar",
+    "q1": "Vad är Liquidity Candle-verktyget och dess fördelar?",
+    "a1": "Detta exklusiva analysverktyg hjälper dig att exakt identifiera de verkliga penningflödestrenderna på marknaden. Det hittar optimala ingångspunkter med mycket snäv Stop Loss (30 - 80 Pips) och höga Take Profit-mål (100 - 1 000 Pips). WinRate ligger konsekvent över 60%, vilket erbjuder ett exceptionellt Risk/Reward-förhållande.",
+    "q2": "Hur fungerar Signal Group dagligen?",
+    "a2": "Finguard-teamet tillhandahåller kontinuerlig teknisk analys och nyhetsuppdateringar. Varje dag får du 2 till 8 VIP-signaler, med en förväntad genomsnittlig vinst på 300 Pips/dag. Vi upprätthåller ett transparent dagligt Excel-spårningsblad och arrangerar regelbundet live-handelssessioner med investerare.",
+    "q3": "Hur mycket kapital behöver jag för Auto Trading Robot?",
+    "a3": "Du kan börja uppleva roboten med ett minimikapital på $500 (standardrekommendation är $1 000). Roboten handlar automatiskt guld och valutapar, med en bevisad 7-månaders meritlista som genererar 0,5% till 5% daglig vinst. Maximal drawdown är 30% och kan justeras helt av investeraren. Vinstdelningsavgiften är 30% per vecka.",
+    "q4": "Vad är riskhanteringen för Master Copytrade?",
+    "a4": "Vår Master har 8 års verklig striderfarenhet och hanterar för närvarande ett FTMO-fondkonto på $100 000. Säkerhetsprinciper gäller: Handlar bara guld, 100% av alla affärer har en Stop Loss, och absolut inga negativa affärer hålls över natten. Det ger 1-5% vinst per dag med 30% Max Drawdown. Minimikapitalet för kopiering är $2 000.",
+    "q5": "Finns det kurser tillgängliga för nybörjare?",
+    "a5": "Ja, vi erbjuder tre nivåer. Grundläggande: Grundläggande kunskap för totala nybörjare. Avancerad: Utbildning om optimala KÖP/SÄLJ-ingångar för kort- och medellångvågor (300 - 500 Pips). Pro Class: Bemästra de stora trenderna över alla tidsramar, med både Scalping och Swing Trading för långsiktiga trender (500 - 1 000 Pips)."
+  },
+  "cta": {
+    "badge": "Introduktion av våra insikter",
+    "heading": "Bli hyresvärd med några få",
+    "heading_highlight": "Klick",
+    "subheading": "Registrera dig på minuter och börja bygga din förmögenhet genom att investera i fastighetsfraktioner från bara $50.",
+    "button_front": "Kom igång",
+    "button_back": "Fördjupa dig"
+  },
+  "footer": {
+    "brand_tagline": "Erövra dina handelsmål",
+    "brand_description": "Anpassa din affärsresa enkelt med Finguards instrumentpanel, stödd av en uppsättning kraftfulla verktyg till hands.",
+    "newsletter_title": "Prenumerera på vårt nyhetsbrev",
+    "newsletter_placeholder": "Ange e-postadress",
+    "quick_links": "Snabblänkar",
+    "resources": "Resurser",
+    "social": "Socialt",
+    "legal": "Juridisk information",
+    "copyright": "© {year} Finguard. Designad & utvecklad av",
+    "copyright_team": "Harry Dang & Finguard Team",
+    "powered_by": "Drivs av",
+    "powered_by_tech": "Next.js",
+    "link_home": "Hem",
+    "link_about": "Om oss",
+    "link_features": "Funktioner",
+    "link_pricing": "Priser",
+    "link_career": "Karriär",
+    "link_contact": "Kontakta oss",
+    "link_blog": "Blogg och nyheter",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Stilguide",
+    "link_license": "Licens",
+    "link_changelog": "Ändringslogg",
+    "link_protected": "Lösenordsskyddad",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "Det här är inte sidan du letar efter",
+    "not_found_go_back": "Gå tillbaka",
+    "not_found_description": "eller gå till startsidan för att hitta en ny väg.",
+    "not_found_go_home": "Gå till startsidan",
+    "error_title": "Ett fel har inträffat!",
+    "error_description": "Systemet upplever ett tillfälligt avbrott. Försök igen senare eller kontakta support.",
+    "error_detail_title": "Feldetaljer (Bara dev-läge)",
+    "error_try_again": "Försök igen",
+    "global_title": "Globalt strukturfel",
+    "global_description": "Ett kritiskt systemfel inträffade i rotlayouten som inte kan återställas på normalt sätt.",
+    "reload_page": "Ladda om sidan",
+    "restore_state": "Återställ tillstånd"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "pages": "Seiten",
+    "about": "Über uns",
+    "features": "Funktionen",
+    "workspace": "Arbeitsbereich",
+    "pricing": "Preise",
+    "login": "Anmelden"
+  },
+  "hero": {
+    "badge": "Einführung",
+    "badge_2": "unserer Einblicke",
+    "title": "Erobern Sie Ihre Handelsziele",
+    "subtitle": "Passen Sie Ihre Geschäftsreise mühelos mit dem Dashboard von Youflow an, unterstützt durch eine Reihe leistungsstarker Tools.",
+    "button_start": "Loslegen",
+    "button_learn": "Mehr erfahren"
+  },
+  "review": {
+    "excellent": "Ausgezeichnet"
+  },
+  "market": {
+    "heading": "Wo die Welt Märkte schafft",
+    "subheading": "Schließen Sie sich 100 Millionen Händlern und Investoren an, die ihre Zukunft selbst in die Hand nehmen.",
+    "cta_button": "Funktionen erkunden"
+  },
+  "features": {
+    "badge": "Unsere Funktionen",
+    "heading_1": "Unser leistungsstarkes",
+    "heading_dashboard": "Dashboard",
+    "heading_2": "Ermöglicht über",
+    "heading_count": "234.000",
+    "heading_analytics": "Analysen",
+    "heading_3": "Jeden Tag",
+    "card_1_title": "Echtzeit-Markteinblicke",
+    "card_1_description": "Bei Finguard gewährleisten wir schnelle, zuverlässige Auszahlungen mit robustem Modell und verifiziertem Nachweis auf Blockchain und sozialen Medien.",
+    "card_2_title": "Erweiterte Kontoanalyse",
+    "card_2_description": "Passen Sie Ihre Geschäftsreise mühelos mit dem Finguard-Dashboard an.",
+    "card_3_title": "Portfolio-Verwaltung",
+    "card_3_description": "Steigern Sie einfach Ihre Geschäftsreise mit Ihrem Finguard-Dashboard!",
+    "card_4_title": "Erweiterte Charting-Tools",
+    "card_4_description": "Bei Finguard gewährleisten wir schnelle, zuverlässige Auszahlungen mit robustem Modell und verifiziertem Nachweis auf Blockchain und sozialen Medien."
+  },
+  "languages": {
+    "badge": "Sprachen",
+    "heading": "Kundensupport",
+    "heading_highlight": "In 18 Sprachen",
+    "select_placeholder": "Sprache auswählen..."
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading_1": "Häufig",
+    "heading_2": "gestellte",
+    "heading_3": "Fragen",
+    "q1": "Was ist das Liquidity Candle Tool und welche Vorteile bietet es?",
+    "a1": "Dieses exklusive Analysetool hilft Ihnen, die wahren Geldfluss-Trends auf dem Markt genau zu identifizieren. Es findet optimale Einstiegspunkte mit sehr engem Stop Loss (30 - 80 Pips) und hohen Take Profit-Zielen (100 - 1.000 Pips). Die WinRate bleibt konstant über 60% und bietet ein außergewöhnliches Risk/Reward-Verhältnis.",
+    "q2": "Wie funktioniert die Signal Group täglich?",
+    "a2": "Das Finguard-Team liefert kontinuierliche technische Analysen und Nachrichtenaktualisierungen. Jeden Tag erhalten Sie 2 bis 8 VIP-Signale mit einem erwarteten durchschnittlichen Gewinn von 300 Pips/Tag. Wir pflegen eine transparente tägliche Excel-Tracking-Tabelle und veranstalten regelmäßig Live-Handelssitzungen mit Investoren.",
+    "q3": "Wie viel Kapital benötige ich für den Auto Trading Robot?",
+    "a3": "Sie können den Robot mit einem Mindestkapital von 500$ erleben (Standardempfehlung ist 1.000$). Der Robot handelt automatisch Gold und Währungspaare mit einer nachgewiesenen 7-monatigen Erfolgsbilanz von 0,5% bis 5% täglichem Gewinn. Der maximale Drawdown beträgt 30% und ist vom Investor vollständig anpassbar. Die Gewinnbeteiligung beträgt 30% pro Woche.",
+    "q4": "Was ist das Risikomanagement für Master Copytrade?",
+    "a4": "Unser Master hat 8 Jahre echte Kampferfahrung und verwaltet derzeit ein 100.000$ FTMO-Fondskonto. Sicherheitsprinzipien gelten: Nur Gold-Handel, 100% der Trades haben einen Stop Loss, und absolut keine negativen Trades über Nacht halten. Es bringt 1-5% Gewinn pro Tag mit 30% Max Drawdown. Das Mindestkapital zum Kopieren beträgt 2.000$.",
+    "q5": "Gibt es Kurse für Anfänger?",
+    "a5": "Ja, wir bieten drei Stufen an. Basis: Grundlagenwissen für absolute Anfänger. Fortgeschritten: Training für optimale KAUF/VERKAUF-Einstiege für kurz- und mittelfristige Wellen (300 - 500 Pips). Pro Class: Beherrschen der großen Trends über alle Zeiträume, unter Nutzung von Scalping und Swing Trading für langfristige Trends (500 - 1.000 Pips)."
+  },
+  "cta": {
+    "badge": "Einführung unserer Einblicke",
+    "heading": "Werden Sie Vermieter mit wenigen",
+    "heading_highlight": "Klicks",
+    "subheading": "Registrieren Sie sich in wenigen Minuten und beginnen Sie, Ihr Vermögen aufzubauen, indem Sie in Immobilienanteile ab nur 50$ investieren.",
+    "button_front": "Loslegen",
+    "button_back": "Vertiefen"
+  },
+  "footer": {
+    "brand_tagline": "Erobern Sie Ihre Handelsziele",
+    "brand_description": "Passen Sie Ihre Geschäftsreise mühelos mit dem Finguard-Dashboard an, unterstützt durch eine Reihe leistungsstarker Tools.",
+    "newsletter_title": "Abonnieren Sie unseren Newsletter",
+    "newsletter_placeholder": "E-Mail-Adresse eingeben",
+    "quick_links": "Schnelllinks",
+    "resources": "Ressourcen",
+    "social": "Soziales",
+    "legal": "Rechtliche Informationen",
+    "copyright": "© {year} Finguard. Entworfen & Entwickelt von",
+
+    "copyright_team": "Harry Dang & Finguard Team",
+
+    "powered_by": "Betrieben mit",
+    "powered_by_tech": "Next.js",
+    "link_home": "Startseite",
+    "link_about": "Über uns",
+    "link_features": "Funktionen",
+    "link_pricing": "Preise",
+    "link_career": "Karriere",
+    "link_contact": "Kontakt",
+    "link_blog": "Blog und Nachrichten",
+    "link_facebook": "Facebook",
+    "link_instagram": "Instagram",
+    "link_linkedin": "LinkedIn",
+    "link_style_guide": "Stil-Leitfaden",
+    "link_license": "Lizenz",
+    "link_changelog": "Änderungsprotokoll",
+    "link_protected": "Passwortgeschützt",
+    "link_404": "404"
+  },
+  "error": {
+    "not_found_title": "Dies ist nicht die Seite, die Sie suchen",
+    "not_found_go_back": "Zurück",
+    "not_found_description": "oder gehen Sie zur Startseite, um einen neuen Weg zu finden.",
+    "not_found_go_home": "Zur Startseite",
+    "error_title": "Ein Fehler ist aufgetreten!",
+    "error_description": "Das System erfährt eine vorübergehende Störung. Bitte versuchen Sie es später erneut oder kontaktieren Sie den Support.",
+    "error_detail_title": "Fehlerdetails (Nur Entwicklermodus)",
+    "error_try_again": "Erneut versuchen",
+    "global_title": "Globaler Strukturfehler",
+    "global_description": "Ein kritischer Systemfehler ist im Root-Layout aufgetreten, der nicht normal wiederhergestellt werden kann.",
+    "reload_page": "Seite neu laden",
+    "restore_state": "Zustand wiederherstellen"
+  }
+}

@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 import { cn } from "@/lib/utils"
 import { Reveal } from "@/components/animations/reveal"
@@ -16,6 +17,8 @@ export function ReviewBadge({
   classNameContainer,
   ...props
 }: ReviewBadgeProps) {
+  const t = useTranslations("review")
+
   return (
     <Reveal delay={0.1} direction="up">
       <div
@@ -33,7 +36,7 @@ export function ReviewBadge({
             {...props}
           >
             <span className="text-[15px] font-medium tracking-tight text-white">
-              Excellent
+              {t("excellent")}
             </span>
 
             <div className="flex items-center gap-[2px]">
@@ -61,7 +64,6 @@ export function ReviewBadge({
             </div>
 
             <div className="ml-1 flex items-center">
-              {/* We use the reconstructed URL for the 3rd link since it was truncated with '...' */}
               <Image
                 src="https://cdn.prod.website-files.com/6840859dc0e82803d10f5190/6862222307e5d6b29113db15_Title%20Logo.svg"
                 alt="Title Logo"

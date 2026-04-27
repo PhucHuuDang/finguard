@@ -3,12 +3,8 @@ import { Figtree, Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 
 import { Metadata } from "next"
-import { Toaster } from "sonner"
 
 import { cn } from "@/lib/utils"
-import { Footer } from "@/components/common/footer"
-import { ScrollToTop } from "@/components/common/scroll-to-top"
-import { ThemeProvider } from "@/components/theme-provider"
 import { META } from "@/constant/meta"
 
 const geistHeading = Geist({ subsets: ["latin"], variable: "--font-heading" })
@@ -29,7 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
       suppressHydrationWarning
       className={cn(
         "antialiased",
@@ -39,15 +34,7 @@ export default function RootLayout({
         geistHeading.variable
       )}
     >
-      <body>
-        <Toaster richColors position="top-right" />
-        <ThemeProvider>
-          {children}
-          <ScrollToTop threshold={400} />
-
-          <Footer />
-        </ThemeProvider>
-      </body>
+      <body>{children}</body>
     </html>
   )
 }

@@ -1,22 +1,27 @@
-import Link from "next/link"
+"use client"
+
 import { ChevronDown, Menu, ShoppingCart } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/common/logo"
-
-const navLinks = [
-  { label: "Home", href: "/", active: true },
-  { label: "Pages", href: "#", hasDropdown: true },
-  { label: "About", href: "#" },
-  { label: "Features", href: "#" },
-  { label: "Workspace", href: "#" },
-  { label: "Pricing", href: "#" },
-]
+import { Link } from "@/i18n/navigation"
 
 export function Navbar() {
+  const t = useTranslations("nav")
+
+  const navLinks = [
+    { label: t("home"), href: "/" as const, active: true },
+    { label: t("pages"), href: "#" as const, hasDropdown: true },
+    { label: t("about"), href: "#" as const },
+    { label: t("features"), href: "#" as const },
+    { label: t("workspace"), href: "#" as const },
+    { label: t("pricing"), href: "#" as const },
+  ]
+
   return (
-    <nav className="fixed top-6 right-0 left-0 z-50 mx-auto flex w-full max-w-7xl items-center justify-center px-4">
+    <nav className="navbar-fixed fixed top-6 right-0 left-0 z-50 mx-auto flex w-full max-w-7xl items-center justify-center px-4">
       <div className="flex w-full items-center justify-between gap-4 rounded-2xl bg-neutral-900/30 px-8 py-2 backdrop-blur-xl">
         {/* Logo */}
         <Logo width={50} height={50} className="shrink-0 p-1 pt-1.5" />
@@ -51,7 +56,7 @@ export function Navbar() {
             variant="outline"
             className="h-10 rounded-full border-neutral-700 bg-white px-7 text-sm font-medium hover:bg-neutral-200"
           >
-            Login
+            {t("login")}
           </Button>
           <button className="text-neutral-400 md:hidden">
             <Menu className="size-6" />
