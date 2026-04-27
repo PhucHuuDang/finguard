@@ -176,6 +176,29 @@
       opacity: 0.4;
     }
   }
+
+  /* ─── Marquee Animations ─── */
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+
+  --animate-marquee: marquee var(--duration, 20s) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration, 20s) linear
+    infinite;
 }
 
 @layer base {
@@ -219,6 +242,10 @@ body[data-scroll-locked] .navbar-fixed {
 
   .text-gradient-primary {
     @apply bg-linear-to-r from-primary to-primary-foreground bg-clip-text text-transparent;
+  }
+
+  .paused {
+    animation-play-state: paused;
   }
 }
 

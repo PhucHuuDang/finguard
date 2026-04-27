@@ -44,7 +44,7 @@ export function ReviewBadge({
               {[...Array(4)].map((_, i) => (
                 <Image
                   key={i}
-                  src="https://cdn.prod.website-files.com/6840859dc0e82803d10f5190/685430d0fec2ec230b215b33_Star%20(1).svg"
+                  src="/features/star.svg"
                   alt="Full Star"
                   width={22}
                   height={22}
@@ -54,7 +54,7 @@ export function ReviewBadge({
               ))}
               {/* 1 Half Star */}
               <Image
-                src="https://cdn.prod.website-files.com/6840859dc0e82803d10f5190/685430d05ee8f4d5d58a29fc_Star%20(2).svg"
+                src="/features/half-star.svg"
                 alt="Half Star"
                 width={22}
                 height={22}

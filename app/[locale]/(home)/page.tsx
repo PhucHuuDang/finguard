@@ -7,6 +7,7 @@ import { Market } from "@/features/landing/market"
 import { OurFeatures } from "@/features/landing/our-features"
 import { ReviewBadge } from "@/features/landing/review-badge"
 import { SupportLanguages } from "@/features/landing/support-languages"
+import { TestimonialsSection } from "@/features/landing/testimonials-section"
 
 export default function Page() {
   return (
@@ -17,6 +18,7 @@ export default function Page() {
       <Market />
       <OurFeatures />
       <SupportLanguages />
+      <TestimonialsSection />
       <FaqSection />
       <CtaSection />
 

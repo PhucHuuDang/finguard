@@ -48,7 +48,7 @@ export function SupportLanguages() {
         </div>
 
         {/* Languages Grid/Flex */}
-        <div className="mx-auto mt-16 max-w-[900px]">
+        <div className="mx-auto mt-16 max-w-[950px]">
           <Reveal delay={0.3}>
             <div className="flex flex-wrap justify-center gap-3 md:gap-4">
               {LANGUAGES.map((lang: Language) => {
