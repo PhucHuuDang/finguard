@@ -1,5 +1,3 @@
-"use client"
-
 import { ChevronDown } from "lucide-react"
 import { useTranslations } from "next-intl"
 

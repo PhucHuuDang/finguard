@@ -1,5 +1,3 @@
-"use client"
-
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRightIcon, ArrowUpRight } from "lucide-react"
@@ -29,7 +27,6 @@ export function CtaSection() {
                 alt="CTA Background"
                 fill
                 className="object-cover"
-                unoptimized
               />
             </div>
 

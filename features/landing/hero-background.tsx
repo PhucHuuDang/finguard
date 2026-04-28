@@ -24,7 +24,6 @@ export function HeroBackground() {
           alt="Hero Background"
           fill
           priority
-          unoptimized
           className="object-cover object-center"
         />
       </div>
@@ -68,7 +67,6 @@ export function HeroBackground() {
               alt={`Hero Background Glow - ${blendMode}`}
               fill
               priority
-              unoptimized
               className="object-cover object-center"
             />
           </motion.div>

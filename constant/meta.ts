@@ -3,6 +3,9 @@ import { Metadata } from "next"
 import { BRAND } from "./label"
 
 export const META: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
+  ),
   title: BRAND.FINGUARD,
   description: BRAND.DESCRIPTION,
   keywords: "FINGUARD, crypto, passive income, decentralized finance",

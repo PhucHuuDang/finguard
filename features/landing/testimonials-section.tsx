@@ -1,5 +1,3 @@
-"use client"
-
 import Image from "next/image"
 import { MessageCircle } from "lucide-react"
 
@@ -172,7 +170,6 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
               fill
               className="object-cover"
               sizes="40px"
-              unoptimized
               draggable={false}
             />
           </div>
@@ -212,7 +209,6 @@ export function TestimonialsSection() {
           className="scale-125 object-cover object-top"
           quality={100}
           priority={false}
-          unoptimized
         />
         {/* Edge fades — blend into adjacent black sections while preserving the warm center */}
         <div className="absolute inset-x-0 top-0 h-24 bg-linear-to-b from-black/50 to-transparent" />
