@@ -10,7 +10,7 @@ export const Market = () => {
   const t = useTranslations("market")
 
   return (
-    <section className="relative flex w-full flex-col items-center justify-center overflow-hidden py-8 md:py-14">
+    <section className="relative flex w-full flex-col items-center justify-center overflow-hidden py-16 md:py-24">
       {/* Background Aurora */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 -z-10 w-full max-w-[1600px] min-w-[1000px] -translate-x-1/2 -translate-y-1/2 mask-[radial-gradient(ellipse_at_center,black_50%,transparent_80%)] mix-blend-screen">
         <picture>
@@ -28,7 +28,7 @@ export const Market = () => {
         </picture>
       </div>
 
-      <div className="relative z-10 flex w-full max-w-6xl flex-col items-center gap-8 px-6 text-center">
+      <div className="relative z-10 flex w-full max-w-6xl flex-col items-center gap-8 px-6 text-center lg:px-8">
         {/* Headings */}
         <div className="flex max-w-3xl flex-col items-center gap-4">
           <Reveal direction="up" delay={0.1}>

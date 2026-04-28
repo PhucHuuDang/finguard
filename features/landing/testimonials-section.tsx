@@ -220,7 +220,7 @@ export function TestimonialsSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto px-6 lg:px-48">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12 flex flex-col gap-6 md:mb-16 md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col gap-4">
@@ -247,7 +247,7 @@ export function TestimonialsSection() {
 
           {/* Description */}
           <Reveal delay={0.3} direction="up">
-            <p className="max-w-md text-sm leading-relaxed text-neutral-400 md:text-start md:text-base">
+            <p className="max-w-md text-sm leading-relaxed font-semibold text-neutral-400 md:text-start md:text-base">
               Our financial management platform is transforming the way people
               manage their money. Here&apos;s what some of our users have to say
               about their experience

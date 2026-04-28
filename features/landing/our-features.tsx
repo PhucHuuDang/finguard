@@ -205,7 +205,7 @@ export const OurFeatures = () => {
         <div className="absolute inset-0 bg-linear-to-b from-black via-transparent to-black" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         {/* Badge */}
         <Reveal delay={0.1} direction="up">
           <div className="flex justify-center">

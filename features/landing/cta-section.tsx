@@ -18,8 +18,8 @@ export function CtaSection() {
   const t = useTranslations("cta")
 
   return (
-    <section className="relative overflow-hidden bg-black pb-28">
-      <div className="mx-auto px-6 lg:px-48">
+    <section className="relative overflow-hidden bg-black pb-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <Reveal>
           <div className="relative w-full overflow-hidden rounded-3xl border border-white/5 bg-[#0a0a0a]">
             {/* Layer 1: Background Image */}

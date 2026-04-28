@@ -25,29 +25,31 @@ export function FaqSection() {
 
   return (
     <section className="relative overflow-hidden bg-black py-28">
-      <div className="mx-auto px-6 lg:px-48">
-        <div className="flex w-full flex-col gap-16 lg:flex-row lg:justify-between lg:gap-12">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="flex w-full flex-col gap-16 xl:flex-row xl:justify-between xl:gap-12">
           {/* Left Column */}
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full min-w-0 xl:w-[35%] xl:shrink-0">
             <TitleSectionCommon
               title={t("badge")}
-              className="mb-2 text-sm font-medium"
+              className="mb-4 text-sm font-medium"
             />
 
             <Reveal delay={0.1}>
-              <h2 className="font-heading text-4xl leading-[1.1] font-bold tracking-tight text-white sm:text-5xl lg:text-[4.5rem]">
-                {t("heading_1")}
-                <span className="text-gradient-neutral ml-2">
-                  {t("heading_2")}
-                </span>{" "}
-                <br />
-                {t("heading_3")}
+              <h2 className="font-heading text-4xl leading-[1.1] font-bold tracking-tight wrap-break-word text-white sm:text-5xl xl:text-[2.75rem] 2xl:text-[3.5rem]">
+                {t("heading_1")}{" "}
+                <span className="text-gradient-neutral">{t("heading_2")}</span>
+                {t("heading_3") && (
+                  <>
+                    <br />
+                    {t("heading_3")}
+                  </>
+                )}
               </h2>
             </Reveal>
           </div>
 
           {/* Right Column */}
-          <div className="w-full lg:w-[65%]">
+          <div className="w-full min-w-0 xl:flex-1">
             <Reveal delay={0.2}>
               <Accordion
                 type="single"
