@@ -1,5 +1,6 @@
 import { HeroBackground } from "@/features/landing/hero-background"
 import { HeroContent } from "@/features/landing/hero-content"
+import { ScrollIndicator } from "@/features/landing/scroll-indicator"
 import { TradingCard } from "@/features/landing/trading-card"
 
 import { Reveal } from "../../components/animations/reveal"
@@ -29,6 +30,8 @@ export function HeroSection() {
           </div>
         </div>
       </div>
+
+      <ScrollIndicator />
     </section>
   )
 }

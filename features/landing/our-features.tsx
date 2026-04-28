@@ -189,7 +189,10 @@ export const OurFeatures = () => {
   const t = useTranslations("features")
 
   return (
-    <section className="relative overflow-hidden bg-black py-14 md:py-20 lg:py-24">
+    <section
+      id="features"
+      className="relative overflow-hidden bg-black py-14 md:py-20 lg:py-24"
+    >
       {/* Background Image */}
       <div className="pointer-events-none absolute inset-0 z-0">
         <Image
