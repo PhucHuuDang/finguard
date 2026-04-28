@@ -1,6 +1,5 @@
 "use client"
 
-/* eslint-disable react-hooks/static-components */
 import * as React from "react"
 import { isMotionComponent, motion, type HTMLMotionProps } from "motion/react"
 
@@ -76,7 +75,8 @@ function Slot<T extends HTMLElement = HTMLElement>({
         ? (children.type as React.ElementType)
         : motion.create(children.type as React.ElementType),
     [isAlreadyMotion, children.type]
-  )
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ) as any
 
   if (!React.isValidElement(children)) return null
 
